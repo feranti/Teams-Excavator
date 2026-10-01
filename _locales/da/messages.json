@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "Opretter ZIP..."
+  },
+  "batchChatError": {
+    "message": "Fejl: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "Udtrækker: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "Eksportformat"
+  },
+  "batchGroupChannels": {
+    "message": "Kanaler"
+  },
+  "batchGroupChats": {
+    "message": "Chats"
+  },
+  "batchKeepVisible": {
+    "message": "Hold Teams-fanen synlig, indtil batchen er færdig: Teams sættes på pause i en baggrundsfane eller et minimeret vindue, og batchen venter på den."
+  },
+  "batchLoadingChats": {
+    "message": "Indlæser chats fra sidepanelet..."
+  },
+  "batchNoChats": {
+    "message": "Ingen chats eller kanaler fundet i sidepanelet"
+  },
+  "batchProgress": {
+    "message": "Batchforløb"
+  },
+  "batchSelectAll": {
+    "message": "Vælg alle"
+  },
+  "batchSelectChats": {
+    "message": "Chats og kanaler"
+  },
+  "batchStatusComplete": {
+    "message": "Batch fuldført: $COUNT$ chat(s) eksporteret til ZIP",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "Batch afsluttet: ingen beskeder blev eksporteret"
+  },
+  "batchStatusReady": {
+    "message": "Batch færdig: $COUNT$ chat(s) klar til download",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "Nulstil"
+  },
+  "btnCopied": {
+    "message": "Kopieret!"
+  },
+  "btnCopy": {
+    "message": "Kopiér"
+  },
+  "btnDownloadCSV": {
+    "message": "Gem som CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "Download filer ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "Gem som HTML"
+  },
+  "btnDownloadMD": {
+    "message": "Gem som Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "Download ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "Downloader filer ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "Afslutter…"
+  },
+  "btnRefresh": {
+    "message": "Opdater"
+  },
+  "btnSelectChats": {
+    "message": "Vælg chats, der skal udtrækkes"
+  },
+  "btnSelectFormat": {
+    "message": "Vælg et format"
+  },
+  "btnStartBatch": {
+    "message": "Udtræk $COUNT$ chats",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "Udtræk 1 chat"
+  },
+  "btnStartExtraction": {
+    "message": "Start eksport"
+  },
+  "btnStartNewExtraction": {
+    "message": "Ny eksport"
+  },
+  "btnStopBatch": {
+    "message": "Stop batch"
+  },
+  "btnStopExtraction": {
+    "message": "Stop eksport"
+  },
+  "btnStopFileDownload": {
+    "message": "Stop download"
+  },
+  "buyMeCoffee": {
+    "message": "Støt projektet"
+  },
+  "consoleTitle": {
+    "message": "Aktivitetslog"
+  },
+  "csvAuthor": {
+    "message": "Afsender"
+  },
+  "csvMessage": {
+    "message": "Tekst"
+  },
+  "csvQuotedAuthor": {
+    "message": "Citatafsender"
+  },
+  "csvQuotedMessage": {
+    "message": "Citattekst"
+  },
+  "csvQuotedTime": {
+    "message": "Citattidspunkt"
+  },
+  "csvReactions": {
+    "message": "Emoji-reaktioner"
+  },
+  "csvReplyTo": {
+    "message": "Som svar til"
+  },
+  "csvSubject": {
+    "message": "Titel"
+  },
+  "csvThreadId": {
+    "message": "Trådnøgle"
+  },
+  "csvTimestamp": {
+    "message": "Sendt kl."
+  },
+  "errorFileDownloadStart": {
+    "message": "Kunne ikke starte fildownload"
+  },
+  "errorGeneric": {
+    "message": "Eksporten stødte på et problem"
+  },
+  "errorNoMessages": {
+    "message": "Der er intet at gemme endnu"
+  },
+  "errorStartExtraction": {
+    "message": "Eksporten kunne ikke startes. Genindlæs Teams-fanen og prøv igen."
+  },
+  "errorZipBusy": {
+    "message": "En ZIP-fil skrives allerede. Vent til den er færdig, og prøv igen."
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP-download kunne ikke startes"
+  },
+  "extDescription": {
+    "message": "Eksportér Microsoft Teams-chats og -kanaler til CSV, HTML eller Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ fil(er) mislykkedes",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "Nogle filer mislykkedes, fordi stien er for lang. Vælg en kortere downloadmappe, eller aktivér lange stier i Windows."
+  },
+  "fileErrorsList": {
+    "message": "Mislykkedes ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "Alle $COUNT$ filer blev downloadet",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "Færdig: $DONE$/$TOTAL$ filer downloadet",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "Downloader $DONE$/$TOTAL$ filer",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "Forbereder ZIP ($COUNT$ filer)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Udtrækker flere chats og kanaler fra Teams-sidepanelet til én ZIP."
+  },
+  "hintCurrentChat": {
+    "message": "Udtrækker den chat eller kanal, der er åben i Teams lige nu."
+  },
+  "htmlImageNote": {
+    "message": "Nogle billeder kunne ikke indlejres i denne udskrift. Gem dem via udvidelsens fildownload, og opbevar dem ved siden af denne HTML."
+  },
+  "htmlQuotedFrom": {
+    "message": "Som svar til"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Eksport af Teams-samtale"
+  },
+  "lockBatchRunning": {
+    "message": "En batchudtrækning er i gang. Vent, til den er færdig, eller stop den fra fanen Batch."
+  },
+  "lockSingleRunning": {
+    "message": "En chatudtrækning er i gang. Vent, til den er færdig, eller stop den fra fanen Aktuel chat."
+  },
+  "settingExtractFiles": {
+    "message": "Saml også delte filer"
+  },
+  "settingThresholdDate": {
+    "message": "Stop ved dato (spring ældre beskeder over)"
+  },
+  "settingYourName": {
+    "message": "Dit navn (til fremhævelse af dine beskeder)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "f.eks. Jens Hansen"
+  },
+  "settingZipDownloads": {
+    "message": "Pak filer i én ZIP (streames til disk)"
+  },
+  "statusComplete": {
+    "message": "Udtrak $COUNT$ beskeder · $FILES$ filer",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "Udtrækker… Beskeder: $COUNT$ · Filer fundet: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "Eksport i gang…"
+  },
+  "statusFailed": {
+    "message": "Eksport mislykkedes"
+  },
+  "statusFinalizing": {
+    "message": "Afslutter…"
+  },
+  "statusNotTeams": {
+    "message": "Åbn en Teams-chat eller -kanal for at komme i gang"
+  },
+  "statusReady": {
+    "message": "Klar til eksport"
+  },
+  "statusTotalTime": {
+    "message": "Samlet tid: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "Starter…"
+  },
+  "statusStopped": {
+    "message": "Eksport stoppet"
+  },
+  "tabBatch": {
+    "message": "Batch"
+  },
+  "tabCurrentChat": {
+    "message": "Aktuel chat"
+  },
+  "toggleAdvancedSettings": {
+    "message": "Flere indstillinger"
+  },
+  "toggleHideConsole": {
+    "message": "Skjul log"
+  },
+  "toggleHideSettings": {
+    "message": "Skjul indstillinger"
+  },
+  "toggleShowConsole": {
+    "message": "Vis log"
+  },
+  "unknownAuthor": {
+    "message": "ukendt"
+  }
+}

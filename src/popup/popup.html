@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teams Excavator</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<!-- Hidden until the user's language is applied, to avoid a flash of English. -->
+<body style="visibility: hidden;">
+<div class="container">
+    <header class="header">
+        <h1>
+            <img class="logo" src="../../icons/icon128.png" alt="">
+            <span data-i18n="headerTitle">Teams Excavator</span>
+        </h1>
+        <button class="icon-btn" id="toggleSettings" type="button" aria-expanded="false" aria-controls="settingsSection" data-i18n-title="toggleAdvancedSettings" title="Options"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.61-.22l-2.39.96a7.03 7.03 0 0 0-1.62-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.59.24-1.13.56-1.62.94l-2.39-.96a.5.5 0 0 0-.61.22L2.71 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.07.63-.07.94s.03.63.07.94L2.83 14.52a.5.5 0 0 0-.12.64l1.92 3.32c.13.22.39.31.61.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.26.42.5.42h3.84c.25 0 .46-.18.5-.42l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.09.48 0 .61-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58zM12 15.6A3.6 3.6 0 1 1 12 8.4a3.6 3.6 0 0 1 0 7.2z"/></svg></button>
+        <select id="langSelect" class="lang-select" aria-label="Language"></select>
+    </header>
+
+    <div class="alert" id="notTeamsAlert" hidden>
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2L1 21h22L12 2zm0 4.53L19.53 19H4.47L12 6.53zM11 10v5h2v-5h-2zm0 6v2h2v-2h-2z"/></svg>
+        <span data-i18n="statusNotTeams">Please navigate to a Teams chat to enable extraction</span>
+    </div>
+
+    <section class="box" id="settingsSection" hidden>
+        <label class="check"><input type="checkbox" id="withFiles"> <span data-i18n="settingExtractFiles">Extract &amp; download files</span></label>
+        <label class="check"><input type="checkbox" id="zipBundle"> <span data-i18n="settingZipDownloads">Bundle file downloads as a single ZIP</span></label>
+        <label class="field"><span data-i18n="settingThresholdDate">Stop at date (skip older messages)</span>
+            <input type="date" id="thresholdDate"></label>
+        <label class="field"><span data-i18n="settingYourName">Your Name (for highlighting your messages)</span>
+            <input type="text" id="currentUserName" data-i18n-placeholder="settingYourNamePlaceholder"></label>
+    </section>
+
+    <nav class="mode-tabs" role="tablist">
+        <button class="mode-tab" id="tabSingle" role="tab" aria-controls="singlePanel">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+            <span data-i18n="tabCurrentChat">Current chat</span>
+            <span class="tab-dot"></span>
+        </button>
+        <button class="mode-tab" id="tabBatch" role="tab" aria-controls="batchPanel">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg>
+            <span data-i18n="tabBatch">Batch</span>
+            <span class="tab-dot"></span>
+        </button>
+    </nav>
+
+    <!-- Current chat -->
+    <section class="panel" id="singlePanel" role="tabpanel" aria-labelledby="tabSingle">
+        <p class="hint" data-i18n="hintCurrentChat">Extracts the chat or channel currently open in Teams.</p>
+        <p class="note" id="singleLockNote" hidden data-i18n="lockBatchRunning">A batch extraction is running.</p>
+
+        <div class="status" id="singleStatus" hidden>
+            <div class="status-line"><span class="dot" id="singleDot"></span><span id="singleStatusText"></span></div>
+            <div class="status-detail" id="singleStatusDetail" hidden></div>
+        </div>
+
+        <div class="controls">
+            <button id="startBtn" class="primary" data-i18n="btnStartExtraction">Start Extraction</button>
+            <button id="haltBtn" hidden data-i18n="btnStopExtraction">Stop Extraction</button>
+            <div class="progress indeterminate" id="singleProgress" hidden><div></div></div>
+
+            <div>
+                <div class="label" data-i18n="batchExportFormat">Export format</div>
+                <div class="formats">
+                    <button class="format" data-format="csv">CSV</button>
+                    <button class="format" data-format="html">HTML</button>
+                    <button class="format" data-format="md">Markdown</button>
+                </div>
+            </div>
+            <div class="row">
+                <button id="saveBtn" disabled data-i18n="btnDownloadCSV">Download CSV</button>
+                <button id="saveFilesBtn" disabled>Download Files (0)</button>
+            </div>
+            <button id="resetBtn" hidden data-i18n="btnClear">Clear</button>
+        </div>
+
+        <div class="box" id="filesSection" hidden>
+            <div class="progress"><div id="filesProgress"></div></div>
+            <div class="small" id="filesText"></div>
+            <div class="small warn" id="filesErrors"></div>
+            <button id="stopFilesBtn" data-i18n="btnStopFileDownload">Stop File Download</button>
+        </div>
+    </section>
+
+    <!-- Batch -->
+    <section class="panel" id="batchPanel" role="tabpanel" aria-labelledby="tabBatch" hidden>
+        <p class="hint" data-i18n="hintBatch">Extracts several chats and channels from the Teams sidebar into a single ZIP.</p>
+        <p class="note" data-i18n="batchKeepVisible">Keep the Teams tab visible until the batch ends: Teams pauses in a background tab or minimized window, and the batch waits for it.</p>
+        <p class="note" id="batchLockNote" hidden data-i18n="lockSingleRunning">A chat extraction is running.</p>
+
+        <div class="status" id="batchStatus" hidden>
+            <div class="status-line"><span class="dot" id="batchDot"></span><span id="batchStatusText"></span></div>
+            <button id="batchDownloadBtn" hidden data-i18n="btnDownloadZip">Download ZIP</button>
+        </div>
+
+        <div id="batchSetup">
+            <div class="list-header">
+                <span><span data-i18n="batchSelectChats">Chats &amp; channels</span> <span class="muted" id="batchCount"></span></span>
+                <button class="small-btn" id="refreshChatsBtn" data-i18n="btnRefresh">Refresh</button>
+            </div>
+            <div class="chat-list" id="chatList"></div>
+
+            <div class="label" data-i18n="batchExportFormat">Export format</div>
+            <div class="formats">
+                <button class="format" data-format="csv">CSV</button>
+                <button class="format" data-format="html">HTML</button>
+                <button class="format" data-format="md">Markdown</button>
+            </div>
+            <button id="startBatchBtn" class="primary" disabled data-i18n="btnSelectChats">Select chats to extract</button>
+        </div>
+
+        <div class="box" id="batchProgressBox" hidden>
+            <div class="label"><span data-i18n="batchProgress">Batch progress</span>: <span id="batchProgressText">0 / 0</span></div>
+            <div class="progress"><div id="batchProgress"></div></div>
+            <div class="small ellipsis" id="batchCurrent"></div>
+            <button id="stopBatchBtn" data-i18n="btnStopBatch">Stop Batch</button>
+        </div>
+    </section>
+
+    <div class="toggles">
+        <button class="link" id="toggleLog" data-i18n="toggleShowConsole">Show Console</button>
+    </div>
+
+
+    <section class="box log-box" id="logPanel" hidden>
+        <div class="log-head">
+            <span data-i18n="consoleTitle">Console Output</span>
+            <span>
+                <button class="small-btn" id="copyConsoleBtn" data-i18n="btnCopy">Copy</button>
+                <button class="small-btn" id="clearConsoleBtn" data-i18n="btnClear">Clear</button>
+            </span>
+        </div>
+        <div class="log-body" id="logView"></div>
+    </section>
+
+    <div class="error" id="errorMessage" hidden></div>
+
+    <footer class="footer">
+        <a class="coffee" href="https://buymeacoffee.com/antoineferrieux" target="_blank" rel="noopener noreferrer">☕ <span data-i18n="buyMeCoffee">Buy me a coffee</span></a>
+    </footer>
+</div>
+
+<script src="../shared/util.js"></script>
+<script src="i18n.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

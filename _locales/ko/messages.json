@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "ZIP 만드는 중..."
+  },
+  "batchChatError": {
+    "message": "오류: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "추출 중: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "내보내기 형식"
+  },
+  "batchGroupChannels": {
+    "message": "채널"
+  },
+  "batchGroupChats": {
+    "message": "채팅"
+  },
+  "batchKeepVisible": {
+    "message": "일괄 작업이 끝날 때까지 Teams 탭을 표시된 상태로 두세요. 백그라운드 탭이나 최소화된 창에서는 Teams가 일시 중지되며 일괄 작업은 이를 기다립니다."
+  },
+  "batchLoadingChats": {
+    "message": "사이드바에서 채팅을 불러오는 중..."
+  },
+  "batchNoChats": {
+    "message": "사이드바에서 채팅이나 채널을 찾을 수 없습니다"
+  },
+  "batchProgress": {
+    "message": "일괄 추출 진행률"
+  },
+  "batchSelectAll": {
+    "message": "모두 선택"
+  },
+  "batchSelectChats": {
+    "message": "채팅 및 채널"
+  },
+  "batchStatusComplete": {
+    "message": "일괄 추출 완료: 채팅 $COUNT$개를 ZIP으로 내보냈습니다",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "일괄 추출 종료: 내보낸 메시지가 없습니다"
+  },
+  "batchStatusReady": {
+    "message": "일괄 처리 완료: 채팅 $COUNT$개 다운로드 준비됨",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "초기화"
+  },
+  "btnCopied": {
+    "message": "복사됨!"
+  },
+  "btnCopy": {
+    "message": "복사"
+  },
+  "btnDownloadCSV": {
+    "message": "CSV로 저장"
+  },
+  "btnDownloadFiles": {
+    "message": "파일 다운로드 ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "HTML로 저장"
+  },
+  "btnDownloadMD": {
+    "message": "Markdown으로 저장"
+  },
+  "btnDownloadZip": {
+    "message": "ZIP 다운로드"
+  },
+  "btnDownloadingFiles": {
+    "message": "파일 다운로드 중 ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "마무리 중…"
+  },
+  "btnRefresh": {
+    "message": "새로 고침"
+  },
+  "btnSelectChats": {
+    "message": "추출할 채팅 선택"
+  },
+  "btnSelectFormat": {
+    "message": "형식 선택"
+  },
+  "btnStartBatch": {
+    "message": "채팅 $COUNT$개 추출",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "채팅 1개 추출"
+  },
+  "btnStartExtraction": {
+    "message": "내보내기 시작"
+  },
+  "btnStartNewExtraction": {
+    "message": "새로 내보내기"
+  },
+  "btnStopBatch": {
+    "message": "일괄 추출 중지"
+  },
+  "btnStopExtraction": {
+    "message": "내보내기 중단"
+  },
+  "btnStopFileDownload": {
+    "message": "다운로드 중지"
+  },
+  "buyMeCoffee": {
+    "message": "프로젝트 후원하기"
+  },
+  "consoleTitle": {
+    "message": "활동 로그"
+  },
+  "csvAuthor": {
+    "message": "보낸 사람"
+  },
+  "csvMessage": {
+    "message": "본문"
+  },
+  "csvQuotedAuthor": {
+    "message": "인용된 작성자"
+  },
+  "csvQuotedMessage": {
+    "message": "인용된 메시지"
+  },
+  "csvQuotedTime": {
+    "message": "인용 시간"
+  },
+  "csvReactions": {
+    "message": "이모지 반응"
+  },
+  "csvReplyTo": {
+    "message": "답장 대상"
+  },
+  "csvSubject": {
+    "message": "제목"
+  },
+  "csvThreadId": {
+    "message": "스레드 키"
+  },
+  "csvTimestamp": {
+    "message": "보낸 시각"
+  },
+  "errorFileDownloadStart": {
+    "message": "파일 다운로드를 시작할 수 없습니다"
+  },
+  "errorGeneric": {
+    "message": "내보내는 중 문제가 발생했습니다"
+  },
+  "errorNoMessages": {
+    "message": "아직 저장할 내용이 없습니다"
+  },
+  "errorStartExtraction": {
+    "message": "내보내기를 시작하지 못했습니다. Teams 탭을 새로 고친 뒤 다시 시도하세요."
+  },
+  "errorZipBusy": {
+    "message": "이미 ZIP을 쓰는 중입니다. 끝난 후 다시 시도하세요."
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP 다운로드를 시작하지 못했습니다"
+  },
+  "extDescription": {
+    "message": "Microsoft Teams 채팅과 채널을 CSV, HTML, Markdown으로 내보냅니다."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "파일 $COUNT$개 실패",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "경로가 너무 길어 일부 파일이 실패했습니다. 더 짧은 다운로드 폴더를 선택하거나 Windows에서 긴 경로를 활성화하세요."
+  },
+  "fileErrorsList": {
+    "message": "실패 ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "파일 $COUNT$개를 모두 다운로드했습니다",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "완료: 파일 $DONE$/$TOTAL$개 다운로드됨",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "파일 $DONE$/$TOTAL$개 다운로드 중",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "ZIP 준비 중 (파일 $COUNT$개)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Teams 사이드바의 여러 채팅과 채널을 하나의 ZIP으로 추출합니다."
+  },
+  "hintCurrentChat": {
+    "message": "Teams에서 현재 열려 있는 채팅 또는 채널을 추출합니다."
+  },
+  "htmlImageNote": {
+    "message": "일부 이미지는 이 대화 기록에 포함할 수 없었습니다. 확장 프로그램의 \"파일 다운로드\" 버튼으로 저장한 후 이 HTML과 함께 보관하세요."
+  },
+  "htmlQuotedFrom": {
+    "message": "인용 출처"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams 대화 내보내기"
+  },
+  "lockBatchRunning": {
+    "message": "일괄 추출이 진행 중입니다. 완료될 때까지 기다리거나 일괄 탭에서 중지하세요."
+  },
+  "lockSingleRunning": {
+    "message": "채팅 추출이 진행 중입니다. 완료될 때까지 기다리거나 현재 채팅 탭에서 중지하세요."
+  },
+  "settingExtractFiles": {
+    "message": "공유 파일도 함께 수집"
+  },
+  "settingThresholdDate": {
+    "message": "날짜에서 중지 (이전 메시지 건너뛰기)"
+  },
+  "settingYourName": {
+    "message": "내 이름 (내 메시지 강조 표시용)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "예: 홍길동"
+  },
+  "settingZipDownloads": {
+    "message": "파일을 하나의 ZIP으로 묶기(디스크로 스트리밍)"
+  },
+  "statusComplete": {
+    "message": "$COUNT$개의 메시지가 추출됨 · $FILES$ 파일",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "추출 중… 메시지: $COUNT$ · 찾은 파일: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "내보내는 중…"
+  },
+  "statusFailed": {
+    "message": "내보내기 실패"
+  },
+  "statusFinalizing": {
+    "message": "마무리 중…"
+  },
+  "statusNotTeams": {
+    "message": "시작하려면 Teams 채팅이나 채널을 여세요"
+  },
+  "statusReady": {
+    "message": "내보낼 준비 완료"
+  },
+  "statusTotalTime": {
+    "message": "총 소요 시간: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "시작하는 중…"
+  },
+  "statusStopped": {
+    "message": "내보내기 중단됨"
+  },
+  "tabBatch": {
+    "message": "일괄"
+  },
+  "tabCurrentChat": {
+    "message": "현재 채팅"
+  },
+  "toggleAdvancedSettings": {
+    "message": "옵션 더 보기"
+  },
+  "toggleHideConsole": {
+    "message": "로그 숨기기"
+  },
+  "toggleHideSettings": {
+    "message": "옵션 숨기기"
+  },
+  "toggleShowConsole": {
+    "message": "로그 보기"
+  },
+  "unknownAuthor": {
+    "message": "알 수 없음"
+  }
+}

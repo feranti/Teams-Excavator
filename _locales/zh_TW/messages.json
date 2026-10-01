@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "正在建立 ZIP..."
+  },
+  "batchChatError": {
+    "message": "錯誤：$NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "正在擷取：$NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "匯出格式"
+  },
+  "batchGroupChannels": {
+    "message": "頻道"
+  },
+  "batchGroupChats": {
+    "message": "聊天"
+  },
+  "batchKeepVisible": {
+    "message": "在批次作業結束前請保持 Teams 分頁可見：Teams 在背景分頁或最小化的視窗中會暫停，批次作業會等待它。"
+  },
+  "batchLoadingChats": {
+    "message": "正在從側邊欄載入聊天..."
+  },
+  "batchNoChats": {
+    "message": "側邊欄中找不到聊天或頻道"
+  },
+  "batchProgress": {
+    "message": "批次進度"
+  },
+  "batchSelectAll": {
+    "message": "全選"
+  },
+  "batchSelectChats": {
+    "message": "聊天和頻道"
+  },
+  "batchStatusComplete": {
+    "message": "批次完成：已將 $COUNT$ 個聊天匯出為 ZIP",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "批次結束：沒有匯出任何訊息"
+  },
+  "batchStatusReady": {
+    "message": "批次完成：$COUNT$ 個聊天可供下載",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "重設"
+  },
+  "btnCopied": {
+    "message": "已複製！"
+  },
+  "btnCopy": {
+    "message": "複製"
+  },
+  "btnDownloadCSV": {
+    "message": "另存為 CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "下載檔案 ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "另存為 HTML"
+  },
+  "btnDownloadMD": {
+    "message": "另存為 Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "下載 ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "正在下載檔案 ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "收尾中…"
+  },
+  "btnRefresh": {
+    "message": "重新整理"
+  },
+  "btnSelectChats": {
+    "message": "選擇要擷取的聊天"
+  },
+  "btnSelectFormat": {
+    "message": "選擇格式"
+  },
+  "btnStartBatch": {
+    "message": "擷取 $COUNT$ 個聊天",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "擷取 1 個聊天"
+  },
+  "btnStartExtraction": {
+    "message": "開始匯出"
+  },
+  "btnStartNewExtraction": {
+    "message": "重新匯出"
+  },
+  "btnStopBatch": {
+    "message": "停止批次"
+  },
+  "btnStopExtraction": {
+    "message": "中止匯出"
+  },
+  "btnStopFileDownload": {
+    "message": "停止下載"
+  },
+  "buyMeCoffee": {
+    "message": "支持此專案"
+  },
+  "consoleTitle": {
+    "message": "活動記錄"
+  },
+  "csvAuthor": {
+    "message": "傳送者"
+  },
+  "csvMessage": {
+    "message": "內文"
+  },
+  "csvQuotedAuthor": {
+    "message": "引用作者"
+  },
+  "csvQuotedMessage": {
+    "message": "引用訊息"
+  },
+  "csvQuotedTime": {
+    "message": "引用時間"
+  },
+  "csvReactions": {
+    "message": "表情回應"
+  },
+  "csvReplyTo": {
+    "message": "回覆對象"
+  },
+  "csvSubject": {
+    "message": "標題"
+  },
+  "csvThreadId": {
+    "message": "討論串識別碼"
+  },
+  "csvTimestamp": {
+    "message": "傳送時間"
+  },
+  "errorFileDownloadStart": {
+    "message": "無法開始下載檔案"
+  },
+  "errorGeneric": {
+    "message": "匯出時發生問題"
+  },
+  "errorNoMessages": {
+    "message": "目前沒有可儲存的內容"
+  },
+  "errorStartExtraction": {
+    "message": "無法開始匯出。請重新整理 Teams 分頁後再試一次。"
+  },
+  "errorZipBusy": {
+    "message": "已有 ZIP 正在寫入。請等待完成後再試一次。"
+  },
+  "errorZipStartFailed": {
+    "message": "無法開始下載 ZIP"
+  },
+  "extDescription": {
+    "message": "將 Microsoft Teams 聊天與頻道匯出為 CSV、HTML 或 Markdown。"
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ 個檔案失敗",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "由於路徑過長，部分檔案下載失敗。請選擇更短的下載資料夾，或在 Windows 中啟用長路徑。"
+  },
+  "fileErrorsList": {
+    "message": "失敗 ($COUNT$)：$NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "已成功下載全部 $COUNT$ 個檔案",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "完成：已下載 $DONE$/$TOTAL$ 個檔案",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "正在下載 $DONE$/$TOTAL$ 個檔案",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "正在準備 ZIP（$COUNT$ 個檔案）...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "將 Teams 側邊欄中的多個聊天和頻道擷取到單一 ZIP。"
+  },
+  "hintCurrentChat": {
+    "message": "擷取 Teams 中目前開啟的聊天或頻道。"
+  },
+  "htmlImageNote": {
+    "message": "部分圖片無法內嵌至此記錄。請使用擴充功能的「下載檔案」按鈕儲存，並與此 HTML 放在一起。"
+  },
+  "htmlQuotedFrom": {
+    "message": "引用自"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams 對話匯出"
+  },
+  "lockBatchRunning": {
+    "message": "批次擷取正在進行。請等待完成，或在「批次」分頁中停止。"
+  },
+  "lockSingleRunning": {
+    "message": "聊天擷取正在進行。請等待完成，或在「目前聊天」分頁中停止。"
+  },
+  "settingExtractFiles": {
+    "message": "同時收集共用檔案"
+  },
+  "settingThresholdDate": {
+    "message": "在此日期停止（略過較舊的訊息）"
+  },
+  "settingYourName": {
+    "message": "你的名稱（用於醒目提示你的訊息）"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "例如：王小明"
+  },
+  "settingZipDownloads": {
+    "message": "將檔案打包成單一 ZIP(邊寫邊存檔)"
+  },
+  "statusComplete": {
+    "message": "已擷取 $COUNT$ 則訊息 · $FILES$ 個檔案",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "正在擷取… 訊息: $COUNT$ · 找到的檔案: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "正在匯出…"
+  },
+  "statusFailed": {
+    "message": "匯出失敗"
+  },
+  "statusFinalizing": {
+    "message": "收尾中…"
+  },
+  "statusNotTeams": {
+    "message": "請開啟 Teams 聊天或頻道以開始"
+  },
+  "statusReady": {
+    "message": "已準備好匯出"
+  },
+  "statusTotalTime": {
+    "message": "總耗時: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "正在啟動…"
+  },
+  "statusStopped": {
+    "message": "匯出已中止"
+  },
+  "tabBatch": {
+    "message": "批次"
+  },
+  "tabCurrentChat": {
+    "message": "目前聊天"
+  },
+  "toggleAdvancedSettings": {
+    "message": "更多選項"
+  },
+  "toggleHideConsole": {
+    "message": "隱藏記錄"
+  },
+  "toggleHideSettings": {
+    "message": "隱藏選項"
+  },
+  "toggleShowConsole": {
+    "message": "顯示記錄"
+  },
+  "unknownAuthor": {
+    "message": "未知"
+  }
+}

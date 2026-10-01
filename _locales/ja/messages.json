@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "ZIP を作成中..."
+  },
+  "batchChatError": {
+    "message": "エラー: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "抽出中: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "エクスポート形式"
+  },
+  "batchGroupChannels": {
+    "message": "チャネル"
+  },
+  "batchGroupChats": {
+    "message": "チャット"
+  },
+  "batchKeepVisible": {
+    "message": "バッチが終わるまで Teams のタブを表示したままにしてください。バックグラウンドのタブや最小化したウィンドウでは Teams が一時停止し、バッチはそれを待ちます。"
+  },
+  "batchLoadingChats": {
+    "message": "サイドバーからチャットを読み込み中..."
+  },
+  "batchNoChats": {
+    "message": "サイドバーにチャットまたはチャネルが見つかりません"
+  },
+  "batchProgress": {
+    "message": "一括抽出の進行状況"
+  },
+  "batchSelectAll": {
+    "message": "すべて選択"
+  },
+  "batchSelectChats": {
+    "message": "チャットとチャネル"
+  },
+  "batchStatusComplete": {
+    "message": "一括抽出完了: $COUNT$ 件のチャットを ZIP にエクスポートしました",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "一括抽出終了: エクスポートされたメッセージはありません"
+  },
+  "batchStatusReady": {
+    "message": "一括処理完了：$COUNT$ 件のチャットをダウンロードできます",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "リセット"
+  },
+  "btnCopied": {
+    "message": "コピーしました!"
+  },
+  "btnCopy": {
+    "message": "コピー"
+  },
+  "btnDownloadCSV": {
+    "message": "CSVで保存"
+  },
+  "btnDownloadFiles": {
+    "message": "ファイルをダウンロード ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "HTML をダウンロード"
+  },
+  "btnDownloadMD": {
+    "message": "Markdownで保存"
+  },
+  "btnDownloadZip": {
+    "message": "ZIP をダウンロード"
+  },
+  "btnDownloadingFiles": {
+    "message": "ファイルをダウンロード中 ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "仕上げ中…"
+  },
+  "btnRefresh": {
+    "message": "更新"
+  },
+  "btnSelectChats": {
+    "message": "抽出するチャットを選択"
+  },
+  "btnSelectFormat": {
+    "message": "形式を選択"
+  },
+  "btnStartBatch": {
+    "message": "$COUNT$ 件のチャットを抽出",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "1 件のチャットを抽出"
+  },
+  "btnStartExtraction": {
+    "message": "エクスポート開始"
+  },
+  "btnStartNewExtraction": {
+    "message": "新しいエクスポート"
+  },
+  "btnStopBatch": {
+    "message": "一括抽出を停止"
+  },
+  "btnStopExtraction": {
+    "message": "エクスポート中止"
+  },
+  "btnStopFileDownload": {
+    "message": "ダウンロードを停止"
+  },
+  "buyMeCoffee": {
+    "message": "プロジェクトを応援"
+  },
+  "consoleTitle": {
+    "message": "アクティビティログ"
+  },
+  "csvAuthor": {
+    "message": "送信者"
+  },
+  "csvMessage": {
+    "message": "本文"
+  },
+  "csvQuotedAuthor": {
+    "message": "引用元の作成者"
+  },
+  "csvQuotedMessage": {
+    "message": "引用メッセージ"
+  },
+  "csvQuotedTime": {
+    "message": "引用日時"
+  },
+  "csvReactions": {
+    "message": "リアクション"
+  },
+  "csvReplyTo": {
+    "message": "返信先"
+  },
+  "csvSubject": {
+    "message": "タイトル"
+  },
+  "csvThreadId": {
+    "message": "スレッドキー"
+  },
+  "csvTimestamp": {
+    "message": "送信日時"
+  },
+  "errorFileDownloadStart": {
+    "message": "ファイルのダウンロードを開始できませんでした"
+  },
+  "errorGeneric": {
+    "message": "エクスポート中に問題が発生しました"
+  },
+  "errorNoMessages": {
+    "message": "保存できる内容がまだありません"
+  },
+  "errorStartExtraction": {
+    "message": "エクスポートを開始できませんでした。Teamsのタブを再読み込みしてもう一度お試しください。"
+  },
+  "errorZipBusy": {
+    "message": "別の ZIP ダウンロードが進行中です。完了してから再試行してください。"
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP ダウンロードを開始できませんでした"
+  },
+  "extDescription": {
+    "message": "Microsoft Teamsのチャットとチャネルを CSV・HTML・Markdown に書き出します。"
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ 件のファイルが失敗しました",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "パスが長すぎるため、一部のファイルが失敗しました。ダウンロード先をより短いフォルダーにするか、Windows で長いパスを有効にしてください。"
+  },
+  "fileErrorsList": {
+    "message": "失敗 ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "$COUNT$ 件のファイルをすべてダウンロードしました",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "完了: $DONE$/$TOTAL$ 件のファイルをダウンロードしました",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "$DONE$/$TOTAL$ 件のファイルをダウンロード中",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "ZIP を準備中 ($COUNT$ 件のファイル)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Teams のサイドバーから複数のチャットとチャネルを 1 つの ZIP に抽出します。"
+  },
+  "hintCurrentChat": {
+    "message": "Teams で現在開いているチャットまたはチャネルを抽出します。"
+  },
+  "htmlImageNote": {
+    "message": "一部の画像はこのトランスクリプトに埋め込めませんでした。拡張機能の「ファイルをダウンロード」ボタンで保存し、この HTML と一緒に保管してください。"
+  },
+  "htmlQuotedFrom": {
+    "message": "引用元"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams チャットのトランスクリプト"
+  },
+  "lockBatchRunning": {
+    "message": "一括抽出を実行中です。完了を待つか、「一括」タブから停止してください。"
+  },
+  "lockSingleRunning": {
+    "message": "チャットの抽出を実行中です。完了を待つか、「現在のチャット」タブから停止してください。"
+  },
+  "settingExtractFiles": {
+    "message": "共有ファイルも収集する"
+  },
+  "settingThresholdDate": {
+    "message": "指定日で停止 (それより古いメッセージをスキップ)"
+  },
+  "settingYourName": {
+    "message": "あなたの名前 (自分のメッセージを強調表示するため)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "例: 山田 太郎"
+  },
+  "settingZipDownloads": {
+    "message": "ファイルのダウンロードを 1 つの ZIP にまとめる (ディスクに直接書き込み)"
+  },
+  "statusComplete": {
+    "message": "$COUNT$ 件のメッセージを抽出しました · $FILES$ ファイル",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "抽出中… メッセージ: $COUNT$ · 見つかったファイル: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "エクスポート実行中…"
+  },
+  "statusFailed": {
+    "message": "エクスポートに失敗しました"
+  },
+  "statusFinalizing": {
+    "message": "仕上げ中…"
+  },
+  "statusNotTeams": {
+    "message": "開始するにはTeamsのチャットまたはチャネルを開いてください"
+  },
+  "statusReady": {
+    "message": "エクスポートの準備完了"
+  },
+  "statusTotalTime": {
+    "message": "合計時間: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "開始中…"
+  },
+  "statusStopped": {
+    "message": "エクスポートを中止しました"
+  },
+  "tabBatch": {
+    "message": "一括"
+  },
+  "tabCurrentChat": {
+    "message": "現在のチャット"
+  },
+  "toggleAdvancedSettings": {
+    "message": "その他のオプション"
+  },
+  "toggleHideConsole": {
+    "message": "ログを隠す"
+  },
+  "toggleHideSettings": {
+    "message": "オプションを隠す"
+  },
+  "toggleShowConsole": {
+    "message": "ログを表示"
+  },
+  "unknownAuthor": {
+    "message": "不明"
+  }
+}

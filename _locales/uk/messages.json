@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "Створення ZIP..."
+  },
+  "batchChatError": {
+    "message": "Помилка: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "Вилучення: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "Формат експорту"
+  },
+  "batchGroupChannels": {
+    "message": "Канали"
+  },
+  "batchGroupChats": {
+    "message": "Чати"
+  },
+  "batchKeepVisible": {
+    "message": "Тримайте вкладку Teams видимою до завершення пакета: у фоновій вкладці чи згорнутому вікні Teams призупиняється, і пакет чекає на нього."
+  },
+  "batchLoadingChats": {
+    "message": "Завантаження чатів із бічної панелі..."
+  },
+  "batchNoChats": {
+    "message": "На бічній панелі не знайдено чатів або каналів"
+  },
+  "batchProgress": {
+    "message": "Перебіг пакетного вилучення"
+  },
+  "batchSelectAll": {
+    "message": "Вибрати все"
+  },
+  "batchSelectChats": {
+    "message": "Чати й канали"
+  },
+  "batchStatusComplete": {
+    "message": "Пакет завершено: експортовано чатів у ZIP — $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "Пакет завершено: повідомлення не експортовано"
+  },
+  "batchStatusReady": {
+    "message": "Пакет завершено: чатів готово до завантаження: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "Скинути"
+  },
+  "btnCopied": {
+    "message": "Скопійовано!"
+  },
+  "btnCopy": {
+    "message": "Копіювати"
+  },
+  "btnDownloadCSV": {
+    "message": "Зберегти як CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "Завантажити файли ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "Зберегти як HTML"
+  },
+  "btnDownloadMD": {
+    "message": "Зберегти як Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "Завантажити ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "Завантаження файлів ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "Завершення…"
+  },
+  "btnRefresh": {
+    "message": "Оновити"
+  },
+  "btnSelectChats": {
+    "message": "Виберіть чати для вилучення"
+  },
+  "btnSelectFormat": {
+    "message": "Виберіть формат"
+  },
+  "btnStartBatch": {
+    "message": "Вилучити чати: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "Вилучити 1 чат"
+  },
+  "btnStartExtraction": {
+    "message": "Почати експорт"
+  },
+  "btnStartNewExtraction": {
+    "message": "Новий експорт"
+  },
+  "btnStopBatch": {
+    "message": "Зупинити пакет"
+  },
+  "btnStopExtraction": {
+    "message": "Перервати експорт"
+  },
+  "btnStopFileDownload": {
+    "message": "Зупинити завантаження"
+  },
+  "buyMeCoffee": {
+    "message": "Підтримати проєкт"
+  },
+  "consoleTitle": {
+    "message": "Журнал дій"
+  },
+  "csvAuthor": {
+    "message": "Відправник"
+  },
+  "csvMessage": {
+    "message": "Текст"
+  },
+  "csvQuotedAuthor": {
+    "message": "Автор цитати"
+  },
+  "csvQuotedMessage": {
+    "message": "Цитоване повідомлення"
+  },
+  "csvQuotedTime": {
+    "message": "Час цитати"
+  },
+  "csvReactions": {
+    "message": "Емодзі-реакції"
+  },
+  "csvReplyTo": {
+    "message": "У відповідь на"
+  },
+  "csvSubject": {
+    "message": "Заголовок"
+  },
+  "csvThreadId": {
+    "message": "Ключ гілки"
+  },
+  "csvTimestamp": {
+    "message": "Надіслано о"
+  },
+  "errorFileDownloadStart": {
+    "message": "Не вдалося розпочати завантаження файлів"
+  },
+  "errorGeneric": {
+    "message": "Під час експорту виникла проблема"
+  },
+  "errorNoMessages": {
+    "message": "Поки що нічого зберігати"
+  },
+  "errorStartExtraction": {
+    "message": "Не вдалося почати експорт. Оновіть вкладку Teams і спробуйте ще раз."
+  },
+  "errorZipBusy": {
+    "message": "ZIP-архів уже записується. Дочекайтеся завершення й спробуйте ще раз."
+  },
+  "errorZipStartFailed": {
+    "message": "Не вдалося почати завантаження ZIP"
+  },
+  "extDescription": {
+    "message": "Експорт чатів і каналів Microsoft Teams у CSV, HTML або Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "Не вдалося завантажити файлів: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "Деякі файли не вдалося зберегти: шлях занадто довгий. Виберіть коротшу папку завантажень або увімкніть довгі шляхи у Windows."
+  },
+  "fileErrorsList": {
+    "message": "Помилки ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "Усі файли успішно завантажено ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "Готово: завантажено файлів $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "Завантаження файлів: $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "Підготовка ZIP (файлів: $COUNT$)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Вилучає кілька чатів і каналів із бічної панелі Teams в один ZIP."
+  },
+  "hintCurrentChat": {
+    "message": "Вилучає чат або канал, відкритий зараз у Teams."
+  },
+  "htmlImageNote": {
+    "message": "Деякі зображення не вдалося вбудувати в цю розшифровку. Збережіть їх кнопкою «Завантажити файли» в розширенні та зберігайте поруч із цим HTML-файлом."
+  },
+  "htmlQuotedFrom": {
+    "message": "Цитата з"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Експорт розмови Teams"
+  },
+  "lockBatchRunning": {
+    "message": "Триває пакетне вилучення. Дочекайтеся завершення або зупиніть його на вкладці «Пакет»."
+  },
+  "lockSingleRunning": {
+    "message": "Триває вилучення чату. Дочекайтеся завершення або зупиніть його на вкладці «Поточний чат»."
+  },
+  "settingExtractFiles": {
+    "message": "Також збирати спільні файли"
+  },
+  "settingThresholdDate": {
+    "message": "Зупинитися на даті (пропустити старіші повідомлення)"
+  },
+  "settingYourName": {
+    "message": "Ваше ім'я (для виділення ваших повідомлень)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "напр. Іван Петренко"
+  },
+  "settingZipDownloads": {
+    "message": "Запакувати файли в один ZIP (потоковий запис на диск)"
+  },
+  "statusComplete": {
+    "message": "Вилучено $COUNT$ повідомлень · $FILES$ файлів",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "Вилучення… Повідомлення: $COUNT$ · Знайдено файлів: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "Триває експорт…"
+  },
+  "statusFailed": {
+    "message": "Експорт не вдався"
+  },
+  "statusFinalizing": {
+    "message": "Завершення…"
+  },
+  "statusNotTeams": {
+    "message": "Відкрийте чат або канал Teams, щоб почати"
+  },
+  "statusReady": {
+    "message": "Готово до експорту"
+  },
+  "statusTotalTime": {
+    "message": "Загальний час: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "Запуск…"
+  },
+  "statusStopped": {
+    "message": "Експорт перервано"
+  },
+  "tabBatch": {
+    "message": "Пакет"
+  },
+  "tabCurrentChat": {
+    "message": "Поточний чат"
+  },
+  "toggleAdvancedSettings": {
+    "message": "Додатково"
+  },
+  "toggleHideConsole": {
+    "message": "Сховати журнал"
+  },
+  "toggleHideSettings": {
+    "message": "Сховати параметри"
+  },
+  "toggleShowConsole": {
+    "message": "Показати журнал"
+  },
+  "unknownAuthor": {
+    "message": "невідомо"
+  }
+}

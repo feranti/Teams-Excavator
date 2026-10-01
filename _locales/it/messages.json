@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "Creazione dello ZIP..."
+  },
+  "batchChatError": {
+    "message": "Errore: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "Estrazione: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "Formato di esportazione"
+  },
+  "batchGroupChannels": {
+    "message": "Canali"
+  },
+  "batchGroupChats": {
+    "message": "Chat"
+  },
+  "batchKeepVisible": {
+    "message": "Tieni visibile la scheda di Teams fino alla fine del batch: Teams si mette in pausa in una scheda in background o in una finestra ridotta a icona, e il batch lo attende."
+  },
+  "batchLoadingChats": {
+    "message": "Caricamento delle chat dalla barra laterale..."
+  },
+  "batchNoChats": {
+    "message": "Nessuna chat o canale trovato nella barra laterale"
+  },
+  "batchProgress": {
+    "message": "Avanzamento batch"
+  },
+  "batchSelectAll": {
+    "message": "Seleziona tutto"
+  },
+  "batchSelectChats": {
+    "message": "Chat e canali"
+  },
+  "batchStatusComplete": {
+    "message": "Batch completato: $COUNT$ chat esportate in ZIP",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "Batch terminato: nessun messaggio esportato"
+  },
+  "batchStatusReady": {
+    "message": "Batch completato: $COUNT$ chat pronte per il download",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "Reimposta"
+  },
+  "btnCopied": {
+    "message": "Copiato!"
+  },
+  "btnCopy": {
+    "message": "Copia"
+  },
+  "btnDownloadCSV": {
+    "message": "Salva come CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "Scarica file ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "Salva come HTML"
+  },
+  "btnDownloadMD": {
+    "message": "Salva come Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "Scarica ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "Download dei file ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "Completamento…"
+  },
+  "btnRefresh": {
+    "message": "Aggiorna"
+  },
+  "btnSelectChats": {
+    "message": "Seleziona le chat da estrarre"
+  },
+  "btnSelectFormat": {
+    "message": "Seleziona un formato"
+  },
+  "btnStartBatch": {
+    "message": "Estrai $COUNT$ chat",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "Estrai 1 chat"
+  },
+  "btnStartExtraction": {
+    "message": "Avvia esportazione"
+  },
+  "btnStartNewExtraction": {
+    "message": "Nuova esportazione"
+  },
+  "btnStopBatch": {
+    "message": "Interrompi batch"
+  },
+  "btnStopExtraction": {
+    "message": "Interrompi esportazione"
+  },
+  "btnStopFileDownload": {
+    "message": "Interrompi download"
+  },
+  "buyMeCoffee": {
+    "message": "Sostieni il progetto"
+  },
+  "consoleTitle": {
+    "message": "Registro attività"
+  },
+  "csvAuthor": {
+    "message": "Mittente"
+  },
+  "csvMessage": {
+    "message": "Testo"
+  },
+  "csvQuotedAuthor": {
+    "message": "Autore citato"
+  },
+  "csvQuotedMessage": {
+    "message": "Messaggio citato"
+  },
+  "csvQuotedTime": {
+    "message": "Ora citata"
+  },
+  "csvReactions": {
+    "message": "Reazioni emoji"
+  },
+  "csvReplyTo": {
+    "message": "In risposta a"
+  },
+  "csvSubject": {
+    "message": "Titolo"
+  },
+  "csvThreadId": {
+    "message": "Chiave thread"
+  },
+  "csvTimestamp": {
+    "message": "Inviato alle"
+  },
+  "errorFileDownloadStart": {
+    "message": "Impossibile avviare il download dei file"
+  },
+  "errorGeneric": {
+    "message": "L'esportazione ha riscontrato un problema"
+  },
+  "errorNoMessages": {
+    "message": "Ancora niente da salvare"
+  },
+  "errorStartExtraction": {
+    "message": "Impossibile avviare l'esportazione. Ricarica la scheda di Teams e riprova."
+  },
+  "errorZipBusy": {
+    "message": "Un file ZIP è già in scrittura. Attendi il termine e riprova."
+  },
+  "errorZipStartFailed": {
+    "message": "Impossibile avviare il download dello ZIP"
+  },
+  "extDescription": {
+    "message": "Esporta chat e canali di Microsoft Teams in CSV, HTML o Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ file non riusciti",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "Alcuni file non sono stati scaricati perché il percorso è troppo lungo. Scegli una cartella Download più corta o abilita i percorsi lunghi in Windows."
+  },
+  "fileErrorsList": {
+    "message": "Non riusciti ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "Tutti i $COUNT$ file scaricati correttamente",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "Fatto: $DONE$/$TOTAL$ file scaricati",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "Download di $DONE$/$TOTAL$ file",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "Preparazione dello ZIP ($COUNT$ file)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Estrae più chat e canali dalla barra laterale di Teams in un unico ZIP."
+  },
+  "hintCurrentChat": {
+    "message": "Estrae la chat o il canale attualmente aperto in Teams."
+  },
+  "htmlImageNote": {
+    "message": "Alcune immagini non sono state incorporate in questa trascrizione. Usa il pulsante «Scarica file» dell'estensione per salvarle e conservale insieme a questo HTML."
+  },
+  "htmlQuotedFrom": {
+    "message": "Citato da"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Esportazione conversazione Teams"
+  },
+  "lockBatchRunning": {
+    "message": "È in corso un'estrazione batch. Attendi che finisca o interrompila dalla scheda Batch."
+  },
+  "lockSingleRunning": {
+    "message": "È in corso un'estrazione di chat. Attendi che finisca o interrompila dalla scheda Chat corrente."
+  },
+  "settingExtractFiles": {
+    "message": "Raccogli anche i file condivisi"
+  },
+  "settingThresholdDate": {
+    "message": "Fermati alla data (salta i messaggi più vecchi)"
+  },
+  "settingYourName": {
+    "message": "Il tuo nome (per evidenziare i tuoi messaggi)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "es. Mario Rossi"
+  },
+  "settingZipDownloads": {
+    "message": "Riunisci i file in un unico ZIP (scritto in streaming)"
+  },
+  "statusComplete": {
+    "message": "Estratti $COUNT$ messaggi · $FILES$ file",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "Estrazione… Messaggi: $COUNT$ · File trovati: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "Esportazione in corso…"
+  },
+  "statusFailed": {
+    "message": "Esportazione non riuscita"
+  },
+  "statusFinalizing": {
+    "message": "Completamento…"
+  },
+  "statusNotTeams": {
+    "message": "Apri una chat o un canale di Teams per iniziare"
+  },
+  "statusReady": {
+    "message": "Pronto per esportare"
+  },
+  "statusTotalTime": {
+    "message": "Tempo totale: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "Avvio…"
+  },
+  "statusStopped": {
+    "message": "Esportazione interrotta"
+  },
+  "tabBatch": {
+    "message": "Batch"
+  },
+  "tabCurrentChat": {
+    "message": "Chat corrente"
+  },
+  "toggleAdvancedSettings": {
+    "message": "Altre opzioni"
+  },
+  "toggleHideConsole": {
+    "message": "Nascondi registro"
+  },
+  "toggleHideSettings": {
+    "message": "Nascondi opzioni"
+  },
+  "toggleShowConsole": {
+    "message": "Mostra registro"
+  },
+  "unknownAuthor": {
+    "message": "sconosciuto"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "ZIP بنایا جا رہا ہے..."
+  },
+  "batchChatError": {
+    "message": "خرابی: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "نکالا جا رہا ہے: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "ایکسپورٹ فارمیٹ"
+  },
+  "batchGroupChannels": {
+    "message": "چینلز"
+  },
+  "batchGroupChats": {
+    "message": "چیٹس"
+  },
+  "batchKeepVisible": {
+    "message": "بیچ ختم ہونے تک Teams ٹیب کو نظر آنے دیں: پس منظر کے ٹیب یا چھوٹی کی گئی ونڈو میں Teams رک جاتا ہے، اور بیچ اس کا انتظار کرتا ہے۔"
+  },
+  "batchLoadingChats": {
+    "message": "سائیڈبار سے چیٹس لوڈ ہو رہی ہیں..."
+  },
+  "batchNoChats": {
+    "message": "سائیڈبار میں کوئی چیٹ یا چینل نہیں ملا"
+  },
+  "batchProgress": {
+    "message": "بیچ کی پیش رفت"
+  },
+  "batchSelectAll": {
+    "message": "سب منتخب کریں"
+  },
+  "batchSelectChats": {
+    "message": "چیٹس اور چینلز"
+  },
+  "batchStatusComplete": {
+    "message": "بیچ مکمل: $COUNT$ چیٹس ZIP میں ایکسپورٹ ہوئیں",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "بیچ ختم: کوئی پیغام ایکسپورٹ نہیں ہوا"
+  },
+  "batchStatusReady": {
+    "message": "بیچ مکمل: $COUNT$ چیٹس ڈاؤن لوڈ کے لیے تیار",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "ری سیٹ کریں"
+  },
+  "btnCopied": {
+    "message": "کاپی ہو گیا!"
+  },
+  "btnCopy": {
+    "message": "کاپی کریں"
+  },
+  "btnDownloadCSV": {
+    "message": "CSV کے طور پر محفوظ کریں"
+  },
+  "btnDownloadFiles": {
+    "message": "فائلیں ڈاؤن لوڈ کریں ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "HTML کے طور پر محفوظ کریں"
+  },
+  "btnDownloadMD": {
+    "message": "Markdown کے طور پر محفوظ کریں"
+  },
+  "btnDownloadZip": {
+    "message": "ZIP ڈاؤن لوڈ کریں"
+  },
+  "btnDownloadingFiles": {
+    "message": "فائلیں ڈاؤن لوڈ ہو رہی ہیں ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "مکمل کیا جا رہا ہے…"
+  },
+  "btnRefresh": {
+    "message": "ریفریش"
+  },
+  "btnSelectChats": {
+    "message": "نکالنے کے لیے چیٹس منتخب کریں"
+  },
+  "btnSelectFormat": {
+    "message": "فارمیٹ منتخب کریں"
+  },
+  "btnStartBatch": {
+    "message": "$COUNT$ چیٹس نکالیں",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "1 چیٹ نکالیں"
+  },
+  "btnStartExtraction": {
+    "message": "ایکسپورٹ شروع کریں"
+  },
+  "btnStartNewExtraction": {
+    "message": "نیا ایکسپورٹ"
+  },
+  "btnStopBatch": {
+    "message": "بیچ روکیں"
+  },
+  "btnStopExtraction": {
+    "message": "ایکسپورٹ روکیں"
+  },
+  "btnStopFileDownload": {
+    "message": "ڈاؤن لوڈ روکیں"
+  },
+  "buyMeCoffee": {
+    "message": "پروجیکٹ کی مدد کریں"
+  },
+  "consoleTitle": {
+    "message": "سرگرمی لاگ"
+  },
+  "csvAuthor": {
+    "message": "بھیجنے والا"
+  },
+  "csvMessage": {
+    "message": "متن"
+  },
+  "csvQuotedAuthor": {
+    "message": "اقتباس کا مصنف"
+  },
+  "csvQuotedMessage": {
+    "message": "اقتباس شدہ پیغام"
+  },
+  "csvQuotedTime": {
+    "message": "اقتباس کا وقت"
+  },
+  "csvReactions": {
+    "message": "ایموجی ردعمل"
+  },
+  "csvReplyTo": {
+    "message": "جواب میں"
+  },
+  "csvSubject": {
+    "message": "عنوان"
+  },
+  "csvThreadId": {
+    "message": "تھریڈ کلید"
+  },
+  "csvTimestamp": {
+    "message": "بھیجنے کا وقت"
+  },
+  "errorFileDownloadStart": {
+    "message": "فائل ڈاؤن لوڈ شروع کرنے میں ناکام"
+  },
+  "errorGeneric": {
+    "message": "ایکسپورٹ میں مسئلہ پیش آیا"
+  },
+  "errorNoMessages": {
+    "message": "ابھی محفوظ کرنے کے لیے کچھ نہیں"
+  },
+  "errorStartExtraction": {
+    "message": "ایکسپورٹ شروع نہیں ہو سکا۔ Teams ٹیب ری لوڈ کریں اور دوبارہ کوشش کریں۔"
+  },
+  "errorZipBusy": {
+    "message": "ایک ZIP پہلے ہی لکھی جا رہی ہے۔ اس کے مکمل ہونے کا انتظار کریں اور دوبارہ کوشش کریں۔"
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP ڈاؤن لوڈ شروع نہیں ہو سکا"
+  },
+  "extDescription": {
+    "message": "Microsoft Teams کی چیٹس اور چینلز کو CSV، HTML یا Markdown میں ایکسپورٹ کریں۔"
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ فائلیں ناکام ہوئیں",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "کچھ فائلیں ناکام ہو گئیں کیونکہ راستہ بہت لمبا ہے۔ چھوٹا ڈاؤن لوڈ فولڈر منتخب کریں یا Windows میں لمبے راستے فعال کریں۔"
+  },
+  "fileErrorsList": {
+    "message": "ناکام ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "تمام $COUNT$ فائلیں کامیابی سے ڈاؤن لوڈ ہو گئیں",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "مکمل: $DONE$/$TOTAL$ فائلیں ڈاؤن لوڈ ہوئیں",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "$DONE$/$TOTAL$ فائلیں ڈاؤن لوڈ ہو رہی ہیں",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "ZIP تیار ہو رہا ہے ($COUNT$ فائلیں)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Teams سائیڈبار سے متعدد چیٹس اور چینلز کو ایک ZIP میں نکالتا ہے۔"
+  },
+  "hintCurrentChat": {
+    "message": "Teams میں اس وقت کھلی چیٹ یا چینل کو نکالتا ہے۔"
+  },
+  "htmlImageNote": {
+    "message": "کچھ تصاویر اس ٹرانسکرپٹ میں شامل نہیں ہو سکیں۔ انہیں محفوظ کرنے کے لیے ایکسٹینشن کا \"فائلیں ڈاؤن لوڈ کریں\" بٹن استعمال کریں اور انہیں اس HTML کے ساتھ رکھیں۔"
+  },
+  "htmlQuotedFrom": {
+    "message": "اقتباس از"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams گفتگو ایکسپورٹ"
+  },
+  "lockBatchRunning": {
+    "message": "بیچ اخراج جاری ہے۔ اس کے ختم ہونے کا انتظار کریں یا بیچ ٹیب سے اسے روکیں۔"
+  },
+  "lockSingleRunning": {
+    "message": "چیٹ اخراج جاری ہے۔ اس کے ختم ہونے کا انتظار کریں یا موجودہ چیٹ ٹیب سے اسے روکیں۔"
+  },
+  "settingExtractFiles": {
+    "message": "مشترکہ فائلیں بھی جمع کریں"
+  },
+  "settingThresholdDate": {
+    "message": "تاریخ پر رکیں (پرانے پیغامات چھوڑ دیں)"
+  },
+  "settingYourName": {
+    "message": "آپ کا نام (آپ کے پیغامات نمایاں کرنے کے لیے)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "مثلاً احمد علی"
+  },
+  "settingZipDownloads": {
+    "message": "فائلوں کو ایک ZIP میں سمیٹیں (ڈسک پر اسٹریم)"
+  },
+  "statusComplete": {
+    "message": "$COUNT$ پیغامات نکالے گئے · $FILES$ فائلیں",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "نکالا جا رہا ہے… پیغامات: $COUNT$ · ملی ہوئی فائلیں: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "ایکسپورٹ جاری ہے…"
+  },
+  "statusFailed": {
+    "message": "ایکسپورٹ ناکام ہو گیا"
+  },
+  "statusFinalizing": {
+    "message": "مکمل کیا جا رہا ہے…"
+  },
+  "statusNotTeams": {
+    "message": "شروع کرنے کے لیے Teams چیٹ یا چینل کھولیں"
+  },
+  "statusReady": {
+    "message": "ایکسپورٹ کے لیے تیار"
+  },
+  "statusTotalTime": {
+    "message": "کل وقت: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "شروع ہو رہا ہے…"
+  },
+  "statusStopped": {
+    "message": "ایکسپورٹ روک دیا گیا"
+  },
+  "tabBatch": {
+    "message": "بیچ"
+  },
+  "tabCurrentChat": {
+    "message": "موجودہ چیٹ"
+  },
+  "toggleAdvancedSettings": {
+    "message": "مزید اختیارات"
+  },
+  "toggleHideConsole": {
+    "message": "لاگ چھپائیں"
+  },
+  "toggleHideSettings": {
+    "message": "اختیارات چھپائیں"
+  },
+  "toggleShowConsole": {
+    "message": "لاگ دکھائیں"
+  },
+  "unknownAuthor": {
+    "message": "نامعلوم"
+  }
+}

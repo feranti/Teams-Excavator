@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "ZIP wordt gemaakt..."
+  },
+  "batchChatError": {
+    "message": "Fout: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "Bezig met extraheren: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "Exportformaat"
+  },
+  "batchGroupChannels": {
+    "message": "Kanalen"
+  },
+  "batchGroupChats": {
+    "message": "Chats"
+  },
+  "batchKeepVisible": {
+    "message": "Houd het Teams-tabblad zichtbaar tot de batch klaar is: Teams pauzeert in een achtergrondtabblad of geminimaliseerd venster, en de batch wacht erop."
+  },
+  "batchLoadingChats": {
+    "message": "Chats uit de zijbalk laden..."
+  },
+  "batchNoChats": {
+    "message": "Geen chats of kanalen gevonden in de zijbalk"
+  },
+  "batchProgress": {
+    "message": "Batchvoortgang"
+  },
+  "batchSelectAll": {
+    "message": "Alles selecteren"
+  },
+  "batchSelectChats": {
+    "message": "Chats en kanalen"
+  },
+  "batchStatusComplete": {
+    "message": "Batch voltooid: $COUNT$ chat(s) geëxporteerd naar ZIP",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "Batch afgerond: er zijn geen berichten geëxporteerd"
+  },
+  "batchStatusReady": {
+    "message": "Batch voltooid: $COUNT$ chat(s) klaar om te downloaden",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "Herstellen"
+  },
+  "btnCopied": {
+    "message": "Gekopieerd!"
+  },
+  "btnCopy": {
+    "message": "Kopiëren"
+  },
+  "btnDownloadCSV": {
+    "message": "Opslaan als CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "Bestanden downloaden ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "Opslaan als HTML"
+  },
+  "btnDownloadMD": {
+    "message": "Opslaan als Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "ZIP downloaden"
+  },
+  "btnDownloadingFiles": {
+    "message": "Bezig met downloaden ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "Afronden…"
+  },
+  "btnRefresh": {
+    "message": "Vernieuwen"
+  },
+  "btnSelectChats": {
+    "message": "Selecteer chats om te extraheren"
+  },
+  "btnSelectFormat": {
+    "message": "Selecteer een formaat"
+  },
+  "btnStartBatch": {
+    "message": "$COUNT$ chats extraheren",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "1 chat extraheren"
+  },
+  "btnStartExtraction": {
+    "message": "Export starten"
+  },
+  "btnStartNewExtraction": {
+    "message": "Nieuwe export starten"
+  },
+  "btnStopBatch": {
+    "message": "Batch stoppen"
+  },
+  "btnStopExtraction": {
+    "message": "Export stoppen"
+  },
+  "btnStopFileDownload": {
+    "message": "Download stoppen"
+  },
+  "buyMeCoffee": {
+    "message": "Steun het project"
+  },
+  "consoleTitle": {
+    "message": "Activiteitenlogboek"
+  },
+  "csvAuthor": {
+    "message": "Afzender"
+  },
+  "csvMessage": {
+    "message": "Tekst"
+  },
+  "csvQuotedAuthor": {
+    "message": "Geciteerde auteur"
+  },
+  "csvQuotedMessage": {
+    "message": "Geciteerd bericht"
+  },
+  "csvQuotedTime": {
+    "message": "Geciteerde tijd"
+  },
+  "csvReactions": {
+    "message": "Emoji-reacties"
+  },
+  "csvReplyTo": {
+    "message": "Als antwoord op"
+  },
+  "csvSubject": {
+    "message": "Titel"
+  },
+  "csvThreadId": {
+    "message": "Threadsleutel"
+  },
+  "csvTimestamp": {
+    "message": "Verzonden om"
+  },
+  "errorFileDownloadStart": {
+    "message": "Bestandsdownload starten mislukt"
+  },
+  "errorGeneric": {
+    "message": "De export heeft een probleem ondervonden"
+  },
+  "errorNoMessages": {
+    "message": "Nog niets om op te slaan"
+  },
+  "errorStartExtraction": {
+    "message": "Export kon niet worden gestart. Ververs het Teams-tabblad en probeer opnieuw."
+  },
+  "errorZipBusy": {
+    "message": "Er wordt al een ZIP geschreven. Wacht tot dit klaar is en probeer opnieuw."
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP-download kon niet worden gestart"
+  },
+  "extDescription": {
+    "message": "Exporteer Microsoft Teams-chats en -kanalen naar CSV, HTML of Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ bestand(en) mislukt",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "Sommige bestanden zijn mislukt omdat het pad te lang is. Kies een kortere downloadmap of schakel lange paden in Windows in."
+  },
+  "fileErrorsList": {
+    "message": "Mislukt ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "Alle $COUNT$ bestanden zijn gedownload",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "Klaar: $DONE$/$TOTAL$ bestanden gedownload",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "$DONE$/$TOTAL$ bestanden downloaden",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "ZIP voorbereiden ($COUNT$ bestanden)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Extraheert meerdere chats en kanalen uit de Teams-zijbalk naar één ZIP."
+  },
+  "hintCurrentChat": {
+    "message": "Extraheert de chat of het kanaal dat nu in Teams geopend is."
+  },
+  "htmlImageNote": {
+    "message": "Sommige afbeeldingen konden niet in dit transcript worden ingesloten. Gebruik de knop 'Bestanden downloaden' van de extensie om ze op te slaan en bewaar ze bij dit HTML-bestand."
+  },
+  "htmlQuotedFrom": {
+    "message": "Geciteerd uit"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams-gespreksexport"
+  },
+  "lockBatchRunning": {
+    "message": "Er loopt een batch-extractie. Wacht tot deze klaar is of stop hem via het tabblad Batch."
+  },
+  "lockSingleRunning": {
+    "message": "Er loopt een chat-extractie. Wacht tot deze klaar is of stop hem via het tabblad Huidige chat."
+  },
+  "settingExtractFiles": {
+    "message": "Ook gedeelde bestanden verzamelen"
+  },
+  "settingThresholdDate": {
+    "message": "Stoppen op datum (oudere berichten overslaan)"
+  },
+  "settingYourName": {
+    "message": "Je naam (om je berichten te markeren)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "bijv. Jan Jansen"
+  },
+  "settingZipDownloads": {
+    "message": "Bestanden bundelen in één ZIP (direct naar schijf)"
+  },
+  "statusComplete": {
+    "message": "$COUNT$ berichten geëxtraheerd · $FILES$ bestanden",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "Extraheren… Berichten: $COUNT$ · Gevonden bestanden: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "Export bezig…"
+  },
+  "statusFailed": {
+    "message": "Export mislukt"
+  },
+  "statusFinalizing": {
+    "message": "Afronden…"
+  },
+  "statusNotTeams": {
+    "message": "Open een Teams-chat of -kanaal om te beginnen"
+  },
+  "statusReady": {
+    "message": "Klaar om te exporteren"
+  },
+  "statusTotalTime": {
+    "message": "Totale tijd: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "Starten…"
+  },
+  "statusStopped": {
+    "message": "Export gestopt"
+  },
+  "tabBatch": {
+    "message": "Batch"
+  },
+  "tabCurrentChat": {
+    "message": "Huidige chat"
+  },
+  "toggleAdvancedSettings": {
+    "message": "Meer opties"
+  },
+  "toggleHideConsole": {
+    "message": "Logboek verbergen"
+  },
+  "toggleHideSettings": {
+    "message": "Opties verbergen"
+  },
+  "toggleShowConsole": {
+    "message": "Logboek tonen"
+  },
+  "unknownAuthor": {
+    "message": "onbekend"
+  }
+}

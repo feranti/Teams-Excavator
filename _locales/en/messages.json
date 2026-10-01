@@ -1,0 +1,398 @@
+{
+   "batchBuildingZip": {
+      "message": "Building ZIP..."
+   },
+   "batchChatError": {
+      "message": "Error: $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Project team"
+         }
+      }
+   },
+   "batchChatExtracting": {
+      "message": "Extracting: $NAME$",
+      "placeholders": {
+         "name": {
+            "content": "$1",
+            "example": "Project team"
+         }
+      }
+   },
+   "batchExportFormat": {
+      "message": "Export format"
+   },
+   "batchGroupChannels": {
+      "message": "Channels"
+   },
+   "batchGroupChats": {
+      "message": "Chats"
+   },
+   "batchKeepVisible": {
+      "message": "Keep the Teams tab visible until the batch ends: Teams pauses in a background tab or minimized window, and the batch waits for it."
+   },
+   "batchLoadingChats": {
+      "message": "Loading chats from the sidebar..."
+   },
+   "batchNoChats": {
+      "message": "No chats or channels found in the sidebar"
+   },
+   "batchProgress": {
+      "message": "Batch progress"
+   },
+   "batchSelectAll": {
+      "message": "Select all"
+   },
+   "batchSelectChats": {
+      "message": "Chats & channels"
+   },
+   "batchStatusComplete": {
+      "message": "Batch complete: $COUNT$ chat(s) exported to ZIP",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "batchStatusNothing": {
+      "message": "Batch finished: no messages were exported"
+   },
+   "batchStatusReady": {
+      "message": "Batch finished: $COUNT$ chat(s) ready to download",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "btnClear": {
+      "message": "Reset"
+   },
+   "btnCopied": {
+      "message": "Copied!"
+   },
+   "btnCopy": {
+      "message": "Copy"
+   },
+   "btnDownloadCSV": {
+      "message": "Save as CSV"
+   },
+   "btnDownloadFiles": {
+      "message": "Download Files ($COUNT$)",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "btnDownloadHTML": {
+      "message": "Save as HTML"
+   },
+   "btnDownloadMD": {
+      "message": "Save as Markdown"
+   },
+   "btnDownloadZip": {
+      "message": "Download ZIP"
+   },
+   "btnDownloadingFiles": {
+      "message": "Downloading Files ($DONE$/$TOTAL$)",
+      "placeholders": {
+         "done": {
+            "content": "$1",
+            "example": "2"
+         },
+         "total": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "btnFinalizing": {
+      "message": "Wrapping up…"
+   },
+   "btnRefresh": {
+      "message": "Refresh"
+   },
+   "btnSelectChats": {
+      "message": "Select chats to extract"
+   },
+   "btnSelectFormat": {
+      "message": "Select a format"
+   },
+   "btnStartBatch": {
+      "message": "Extract $COUNT$ chats",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "btnStartBatchOne": {
+      "message": "Extract 1 chat"
+   },
+   "btnStartExtraction": {
+      "message": "Begin Export"
+   },
+   "btnStartNewExtraction": {
+      "message": "Begin New Export"
+   },
+   "btnStopBatch": {
+      "message": "Stop Batch"
+   },
+   "btnStopExtraction": {
+      "message": "Halt Export"
+   },
+   "btnStopFileDownload": {
+      "message": "Stop File Download"
+   },
+   "buyMeCoffee": {
+      "message": "Support this project"
+   },
+   "consoleTitle": {
+      "message": "Activity Log"
+   },
+   "csvAuthor": {
+      "message": "Sender"
+   },
+   "csvMessage": {
+      "message": "Text"
+   },
+   "csvQuotedAuthor": {
+      "message": "Quote Sender"
+   },
+   "csvQuotedMessage": {
+      "message": "Quote Text"
+   },
+   "csvQuotedTime": {
+      "message": "Quote Time"
+   },
+   "csvReactions": {
+      "message": "Emoji Reactions"
+   },
+   "csvReplyTo": {
+      "message": "In Reply To"
+   },
+   "csvSubject": {
+      "message": "Title"
+   },
+   "csvThreadId": {
+      "message": "Thread Key"
+   },
+   "csvTimestamp": {
+      "message": "Sent At"
+   },
+   "errorFileDownloadStart": {
+      "message": "Failed to start file download"
+   },
+   "errorGeneric": {
+      "message": "The export ran into a problem"
+   },
+   "errorNoMessages": {
+      "message": "Nothing to save yet"
+   },
+   "errorStartExtraction": {
+      "message": "Could not start the export. Reload the Teams tab and retry."
+   },
+   "errorZipBusy": {
+      "message": "A ZIP is already being written. Let it finish, then retry."
+   },
+   "errorZipStartFailed": {
+      "message": "Could not begin the ZIP download"
+   },
+   "extDescription": {
+      "message": "Export Microsoft Teams chats and channels to CSV, HTML or Markdown."
+   },
+   "extName": {
+      "message": "Teams Excavator"
+   },
+   "fileErrorsCount": {
+      "message": "$COUNT$ file(s) failed",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "filePathTooLongHint": {
+      "message": "Some files failed because the path is too long. Choose a shorter Downloads folder or enable long paths in Windows."
+   },
+   "fileErrorsList": {
+      "message": "Failed ($COUNT$): $NAMES$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "2"
+         },
+         "names": {
+            "content": "$2",
+            "example": "report.pdf, notes.docx"
+         }
+      }
+   },
+   "fileProgressAllDone": {
+      "message": "All $COUNT$ files downloaded successfully",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "fileProgressDone": {
+      "message": "Done: $DONE$/$TOTAL$ files downloaded",
+      "placeholders": {
+         "done": {
+            "content": "$1",
+            "example": "2"
+         },
+         "total": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "fileProgressDownloading": {
+      "message": "Downloading $DONE$/$TOTAL$ files",
+      "placeholders": {
+         "done": {
+            "content": "$1",
+            "example": "2"
+         },
+         "total": {
+            "content": "$2",
+            "example": "5"
+         }
+      }
+   },
+   "fileProgressPreparingZip": {
+      "message": "Preparing ZIP ($COUNT$ files)...",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "3"
+         }
+      }
+   },
+   "headerTitle": {
+      "message": "Teams Excavator"
+   },
+   "hintBatch": {
+      "message": "Extracts several chats and channels from the Teams sidebar into a single ZIP."
+   },
+   "hintCurrentChat": {
+      "message": "Extracts the chat or channel currently open in Teams."
+   },
+   "htmlImageNote": {
+      "message": "Some images could not be embedded in this transcript. Use the extension's file download to save them and keep them next to this HTML."
+   },
+   "htmlQuotedFrom": {
+      "message": "Replying to"
+   },
+   "htmlTranscriptTitle": {
+      "message": "Teams Conversation Export"
+   },
+   "lockBatchRunning": {
+      "message": "A batch extraction is running. Wait for it to finish or stop it from the Batch tab."
+   },
+   "lockSingleRunning": {
+      "message": "A chat extraction is running. Wait for it to finish or stop it from the Current chat tab."
+   },
+   "settingExtractFiles": {
+      "message": "Also collect shared files"
+   },
+   "settingThresholdDate": {
+      "message": "Stop at date (skip older messages)"
+   },
+   "settingYourName": {
+      "message": "Your Name (for highlighting your messages)"
+   },
+   "settingYourNamePlaceholder": {
+      "message": "e.g. John Doe"
+   },
+   "settingZipDownloads": {
+      "message": "Pack files into one ZIP (streamed to disk)"
+   },
+   "statusComplete": {
+      "message": "Extracted $COUNT$ messages · $FILES$ files",
+      "placeholders": {
+         "files": {
+            "content": "$2",
+            "example": "3"
+         },
+         "count": {
+            "content": "$1",
+            "example": "42"
+         }
+      }
+   },
+   "statusExtractingProgress": {
+      "message": "Extracting… Messages: $COUNT$ · Files Found: $FILES$",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "42"
+         },
+         "files": {
+            "content": "$2",
+            "example": "3"
+         }
+      }
+   },
+   "statusExtracting": {
+      "message": "Export running…"
+   },
+   "statusFailed": {
+      "message": "Export failed"
+   },
+   "statusFinalizing": {
+      "message": "Wrapping up…"
+   },
+   "statusNotTeams": {
+      "message": "Open a Teams chat or channel to get started"
+   },
+   "statusReady": {
+      "message": "Ready to export"
+   },
+   "statusTotalTime": {
+      "message": "Total time: $TIME$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "1m 5s"
+         }
+      }
+   },
+   "statusStarting": {
+      "message": "Starting…"
+   },
+   "statusStopped": {
+      "message": "Export halted"
+   },
+   "tabBatch": {
+      "message": "Batch"
+   },
+   "tabCurrentChat": {
+      "message": "Current chat"
+   },
+   "toggleAdvancedSettings": {
+      "message": "More Options"
+   },
+   "toggleHideConsole": {
+      "message": "Hide Log"
+   },
+   "toggleHideSettings": {
+      "message": "Hide Options"
+   },
+   "toggleShowConsole": {
+      "message": "Show Log"
+   },
+   "unknownAuthor": {
+      "message": "unknown"
+   }
+}

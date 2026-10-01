@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "Vytváření ZIP..."
+  },
+  "batchChatError": {
+    "message": "Chyba: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "Extrahování: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "Formát exportu"
+  },
+  "batchGroupChannels": {
+    "message": "Kanály"
+  },
+  "batchGroupChats": {
+    "message": "Chaty"
+  },
+  "batchKeepVisible": {
+    "message": "Nechte kartu Teams viditelnou až do konce dávky: Teams se na kartě na pozadí nebo v minimalizovaném okně pozastaví a dávka na něj čeká."
+  },
+  "batchLoadingChats": {
+    "message": "Načítání chatů z postranního panelu..."
+  },
+  "batchNoChats": {
+    "message": "V postranním panelu nebyly nalezeny žádné chaty ani kanály"
+  },
+  "batchProgress": {
+    "message": "Průběh dávky"
+  },
+  "batchSelectAll": {
+    "message": "Vybrat vše"
+  },
+  "batchSelectChats": {
+    "message": "Chaty a kanály"
+  },
+  "batchStatusComplete": {
+    "message": "Dávka dokončena: počet chatů exportovaných do ZIP: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "Dávka skončila: nebyly exportovány žádné zprávy"
+  },
+  "batchStatusReady": {
+    "message": "Dávka dokončena: chatů připraveno ke stažení: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "Obnovit"
+  },
+  "btnCopied": {
+    "message": "Zkopírováno!"
+  },
+  "btnCopy": {
+    "message": "Kopírovat"
+  },
+  "btnDownloadCSV": {
+    "message": "Uložit jako CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "Stáhnout soubory ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "Uložit jako HTML"
+  },
+  "btnDownloadMD": {
+    "message": "Uložit jako Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "Stáhnout ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "Stahování souborů ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "Dokončování…"
+  },
+  "btnRefresh": {
+    "message": "Obnovit"
+  },
+  "btnSelectChats": {
+    "message": "Vyberte chaty k extrakci"
+  },
+  "btnSelectFormat": {
+    "message": "Vyberte formát"
+  },
+  "btnStartBatch": {
+    "message": "Extrahovat chaty: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "Extrahovat 1 chat"
+  },
+  "btnStartExtraction": {
+    "message": "Zahájit export"
+  },
+  "btnStartNewExtraction": {
+    "message": "Nový export"
+  },
+  "btnStopBatch": {
+    "message": "Zastavit dávku"
+  },
+  "btnStopExtraction": {
+    "message": "Zastavit export"
+  },
+  "btnStopFileDownload": {
+    "message": "Zastavit stahování"
+  },
+  "buyMeCoffee": {
+    "message": "Podpořit projekt"
+  },
+  "consoleTitle": {
+    "message": "Protokol aktivity"
+  },
+  "csvAuthor": {
+    "message": "Odesílatel"
+  },
+  "csvMessage": {
+    "message": "Text"
+  },
+  "csvQuotedAuthor": {
+    "message": "Odesílatel citace"
+  },
+  "csvQuotedMessage": {
+    "message": "Text citace"
+  },
+  "csvQuotedTime": {
+    "message": "Čas citace"
+  },
+  "csvReactions": {
+    "message": "Emoji reakce"
+  },
+  "csvReplyTo": {
+    "message": "V odpovědi na"
+  },
+  "csvSubject": {
+    "message": "Název"
+  },
+  "csvThreadId": {
+    "message": "Klíč vlákna"
+  },
+  "csvTimestamp": {
+    "message": "Odesláno v"
+  },
+  "errorFileDownloadStart": {
+    "message": "Stahování souborů se nepodařilo spustit"
+  },
+  "errorGeneric": {
+    "message": "Při exportu došlo k potížím"
+  },
+  "errorNoMessages": {
+    "message": "Zatím není co uložit"
+  },
+  "errorStartExtraction": {
+    "message": "Export se nepodařilo spustit. Znovu načtěte kartu Teams a zkuste to znovu."
+  },
+  "errorZipBusy": {
+    "message": "ZIP se už zapisuje. Počkejte na dokončení a zkuste to znovu."
+  },
+  "errorZipStartFailed": {
+    "message": "Stahování ZIP se nepodařilo zahájit"
+  },
+  "extDescription": {
+    "message": "Exportujte chaty a kanály Microsoft Teams do CSV, HTML nebo Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "Neúspěšné soubory: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "Některé soubory selhaly, protože cesta je příliš dlouhá. Vyberte kratší složku pro stahování nebo ve Windows povolte dlouhé cesty."
+  },
+  "fileErrorsList": {
+    "message": "Neúspěšné ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "Všechny soubory byly úspěšně staženy ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "Hotovo: staženo souborů $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "Stahování souborů: $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "Příprava ZIP (souborů: $COUNT$)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Extrahuje více chatů a kanálů z postranního panelu Teams do jednoho ZIP."
+  },
+  "hintCurrentChat": {
+    "message": "Extrahuje chat nebo kanál, který je právě otevřený v Teams."
+  },
+  "htmlImageNote": {
+    "message": "Některé obrázky se nepodařilo vložit do tohoto přepisu. Uložte je přes stahování souborů v rozšíření a mějte je vedle tohoto HTML."
+  },
+  "htmlQuotedFrom": {
+    "message": "V odpovědi na"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Export konverzace z Teams"
+  },
+  "lockBatchRunning": {
+    "message": "Probíhá dávková extrakce. Počkejte na její dokončení nebo ji zastavte na kartě Dávka."
+  },
+  "lockSingleRunning": {
+    "message": "Probíhá extrakce chatu. Počkejte na její dokončení nebo ji zastavte na kartě Aktuální chat."
+  },
+  "settingExtractFiles": {
+    "message": "Sbírat také sdílené soubory"
+  },
+  "settingThresholdDate": {
+    "message": "Zastavit u data (přeskočit starší zprávy)"
+  },
+  "settingYourName": {
+    "message": "Vaše jméno (pro zvýraznění vašich zpráv)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "např. Jan Novák"
+  },
+  "settingZipDownloads": {
+    "message": "Sbalit soubory do jednoho ZIP (zápis po proudu)"
+  },
+  "statusComplete": {
+    "message": "Extrahováno $COUNT$ zpráv · $FILES$ souborů",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "Extrahuji… Zprávy: $COUNT$ · Nalezené soubory: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "Probíhá export…"
+  },
+  "statusFailed": {
+    "message": "Export selhal"
+  },
+  "statusFinalizing": {
+    "message": "Dokončování…"
+  },
+  "statusNotTeams": {
+    "message": "Chcete-li začít, otevřete chat nebo kanál Teams"
+  },
+  "statusReady": {
+    "message": "Připraveno k exportu"
+  },
+  "statusTotalTime": {
+    "message": "Celkový čas: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "Spouštění…"
+  },
+  "statusStopped": {
+    "message": "Export zastaven"
+  },
+  "tabBatch": {
+    "message": "Dávka"
+  },
+  "tabCurrentChat": {
+    "message": "Aktuální chat"
+  },
+  "toggleAdvancedSettings": {
+    "message": "Další možnosti"
+  },
+  "toggleHideConsole": {
+    "message": "Skrýt protokol"
+  },
+  "toggleHideSettings": {
+    "message": "Skrýt možnosti"
+  },
+  "toggleShowConsole": {
+    "message": "Zobrazit protokol"
+  },
+  "unknownAuthor": {
+    "message": "neznámý"
+  }
+}

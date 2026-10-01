@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "Создание ZIP..."
+  },
+  "batchChatError": {
+    "message": "Ошибка: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "Извлечение: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "Формат экспорта"
+  },
+  "batchGroupChannels": {
+    "message": "Каналы"
+  },
+  "batchGroupChats": {
+    "message": "Чаты"
+  },
+  "batchKeepVisible": {
+    "message": "Держите вкладку Teams видимой до конца пакета: в фоновой вкладке или свёрнутом окне Teams приостанавливается, и пакет ждёт его."
+  },
+  "batchLoadingChats": {
+    "message": "Загрузка чатов из боковой панели..."
+  },
+  "batchNoChats": {
+    "message": "В боковой панели не найдено чатов или каналов"
+  },
+  "batchProgress": {
+    "message": "Ход пакетного извлечения"
+  },
+  "batchSelectAll": {
+    "message": "Выбрать все"
+  },
+  "batchSelectChats": {
+    "message": "Чаты и каналы"
+  },
+  "batchStatusComplete": {
+    "message": "Пакет завершён: экспортировано чатов в ZIP — $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "Пакет завершён: сообщения не экспортированы"
+  },
+  "batchStatusReady": {
+    "message": "Пакет завершён: чатов готово к загрузке: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "Сбросить"
+  },
+  "btnCopied": {
+    "message": "Скопировано!"
+  },
+  "btnCopy": {
+    "message": "Копировать"
+  },
+  "btnDownloadCSV": {
+    "message": "Сохранить как CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "Скачать файлы ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "Скачать HTML"
+  },
+  "btnDownloadMD": {
+    "message": "Сохранить как Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "Скачать ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "Скачивание файлов ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "Завершение…"
+  },
+  "btnRefresh": {
+    "message": "Обновить"
+  },
+  "btnSelectChats": {
+    "message": "Выберите чаты для извлечения"
+  },
+  "btnSelectFormat": {
+    "message": "Выберите формат"
+  },
+  "btnStartBatch": {
+    "message": "Извлечь чаты: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "Извлечь 1 чат"
+  },
+  "btnStartExtraction": {
+    "message": "Начать экспорт"
+  },
+  "btnStartNewExtraction": {
+    "message": "Новый экспорт"
+  },
+  "btnStopBatch": {
+    "message": "Остановить пакет"
+  },
+  "btnStopExtraction": {
+    "message": "Прервать экспорт"
+  },
+  "btnStopFileDownload": {
+    "message": "Остановить скачивание"
+  },
+  "buyMeCoffee": {
+    "message": "Поддержать проект"
+  },
+  "consoleTitle": {
+    "message": "Журнал действий"
+  },
+  "csvAuthor": {
+    "message": "Отправитель"
+  },
+  "csvMessage": {
+    "message": "Текст"
+  },
+  "csvQuotedAuthor": {
+    "message": "Автор цитаты"
+  },
+  "csvQuotedMessage": {
+    "message": "Цитируемое сообщение"
+  },
+  "csvQuotedTime": {
+    "message": "Время цитаты"
+  },
+  "csvReactions": {
+    "message": "Реакции"
+  },
+  "csvReplyTo": {
+    "message": "В ответ на"
+  },
+  "csvSubject": {
+    "message": "Заголовок"
+  },
+  "csvThreadId": {
+    "message": "Ключ ветки"
+  },
+  "csvTimestamp": {
+    "message": "Отправлено в"
+  },
+  "errorFileDownloadStart": {
+    "message": "Не удалось начать скачивание файлов"
+  },
+  "errorGeneric": {
+    "message": "При экспорте возникла проблема"
+  },
+  "errorNoMessages": {
+    "message": "Пока нечего сохранять"
+  },
+  "errorStartExtraction": {
+    "message": "Не удалось начать экспорт. Обновите вкладку Teams и повторите попытку."
+  },
+  "errorZipBusy": {
+    "message": "Уже выполняется другое скачивание ZIP. Дождитесь его завершения и повторите попытку."
+  },
+  "errorZipStartFailed": {
+    "message": "Не удалось начать скачивание ZIP"
+  },
+  "extDescription": {
+    "message": "Экспорт чатов и каналов Microsoft Teams в CSV, HTML или Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "Не удалось скачать файлов: $COUNT$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "Некоторые файлы не удалось сохранить: путь слишком длинный. Выберите более короткую папку загрузок или включите длинные пути в Windows."
+  },
+  "fileErrorsList": {
+    "message": "Ошибки ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "Все файлы успешно скачаны ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "Готово: скачано файлов $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "Скачивание файлов: $DONE$/$TOTAL$",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "Подготовка ZIP (файлов: $COUNT$)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Извлекает несколько чатов и каналов из боковой панели Teams в один ZIP."
+  },
+  "hintCurrentChat": {
+    "message": "Извлекает чат или канал, открытый сейчас в Teams."
+  },
+  "htmlImageNote": {
+    "message": "Некоторые изображения не удалось встроить в эту расшифровку. Сохраните их кнопкой «Скачать файлы» в расширении и храните рядом с этим HTML-файлом."
+  },
+  "htmlQuotedFrom": {
+    "message": "Цитата из"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Расшифровка чата Teams"
+  },
+  "lockBatchRunning": {
+    "message": "Выполняется пакетное извлечение. Дождитесь завершения или остановите его на вкладке «Пакет»."
+  },
+  "lockSingleRunning": {
+    "message": "Выполняется извлечение чата. Дождитесь завершения или остановите его на вкладке «Текущий чат»."
+  },
+  "settingExtractFiles": {
+    "message": "Также собирать общие файлы"
+  },
+  "settingThresholdDate": {
+    "message": "Остановиться на дате (пропустить более старые сообщения)"
+  },
+  "settingYourName": {
+    "message": "Ваше имя (для выделения ваших сообщений)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "например, Иван Иванов"
+  },
+  "settingZipDownloads": {
+    "message": "Объединять скачиваемые файлы в один ZIP (запись напрямую на диск)"
+  },
+  "statusComplete": {
+    "message": "Извлечено $COUNT$ сообщений · $FILES$ файлов",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "Извлечение… Сообщения: $COUNT$ · Найдено файлов: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "Идёт экспорт…"
+  },
+  "statusFailed": {
+    "message": "Экспорт не удался"
+  },
+  "statusFinalizing": {
+    "message": "Завершение…"
+  },
+  "statusNotTeams": {
+    "message": "Откройте чат или канал Teams, чтобы начать"
+  },
+  "statusReady": {
+    "message": "Готово к экспорту"
+  },
+  "statusTotalTime": {
+    "message": "Общее время: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "Запуск…"
+  },
+  "statusStopped": {
+    "message": "Экспорт прерван"
+  },
+  "tabBatch": {
+    "message": "Пакет"
+  },
+  "tabCurrentChat": {
+    "message": "Текущий чат"
+  },
+  "toggleAdvancedSettings": {
+    "message": "Дополнительно"
+  },
+  "toggleHideConsole": {
+    "message": "Скрыть журнал"
+  },
+  "toggleHideSettings": {
+    "message": "Скрыть параметры"
+  },
+  "toggleShowConsole": {
+    "message": "Показать журнал"
+  },
+  "unknownAuthor": {
+    "message": "неизвестно"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "ZIP তৈরি হচ্ছে..."
+  },
+  "batchChatError": {
+    "message": "ত্রুটি: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "বের করা হচ্ছে: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "এক্সপোর্ট ফরম্যাট"
+  },
+  "batchGroupChannels": {
+    "message": "চ্যানেল"
+  },
+  "batchGroupChats": {
+    "message": "চ্যাট"
+  },
+  "batchKeepVisible": {
+    "message": "ব্যাচ শেষ না হওয়া পর্যন্ত Teams ট্যাবটি দৃশ্যমান রাখুন: ব্যাকগ্রাউন্ড ট্যাব বা মিনিমাইজ করা উইন্ডোতে Teams থেমে যায়, আর ব্যাচ তার জন্য অপেক্ষা করে।"
+  },
+  "batchLoadingChats": {
+    "message": "সাইডবার থেকে চ্যাট লোড হচ্ছে..."
+  },
+  "batchNoChats": {
+    "message": "সাইডবারে কোনো চ্যাট বা চ্যানেল পাওয়া যায়নি"
+  },
+  "batchProgress": {
+    "message": "ব্যাচের অগ্রগতি"
+  },
+  "batchSelectAll": {
+    "message": "সব নির্বাচন করুন"
+  },
+  "batchSelectChats": {
+    "message": "চ্যাট ও চ্যানেল"
+  },
+  "batchStatusComplete": {
+    "message": "ব্যাচ সম্পন্ন: $COUNT$টি চ্যাট ZIP-এ এক্সপোর্ট হয়েছে",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "ব্যাচ শেষ: কোনো বার্তা এক্সপোর্ট হয়নি"
+  },
+  "batchStatusReady": {
+    "message": "ব্যাচ সম্পন্ন: $COUNT$টি চ্যাট ডাউনলোডের জন্য প্রস্তুত",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "রিসেট করুন"
+  },
+  "btnCopied": {
+    "message": "কপি হয়েছে!"
+  },
+  "btnCopy": {
+    "message": "কপি করুন"
+  },
+  "btnDownloadCSV": {
+    "message": "CSV হিসেবে সংরক্ষণ"
+  },
+  "btnDownloadFiles": {
+    "message": "ফাইল ডাউনলোড করুন ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "HTML ডাউনলোড করুন"
+  },
+  "btnDownloadMD": {
+    "message": "Markdown হিসেবে সংরক্ষণ"
+  },
+  "btnDownloadZip": {
+    "message": "ZIP ডাউনলোড করুন"
+  },
+  "btnDownloadingFiles": {
+    "message": "ফাইল ডাউনলোড হচ্ছে ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "শেষ করা হচ্ছে…"
+  },
+  "btnRefresh": {
+    "message": "রিফ্রেশ করুন"
+  },
+  "btnSelectChats": {
+    "message": "বের করার জন্য চ্যাট নির্বাচন করুন"
+  },
+  "btnSelectFormat": {
+    "message": "ফরম্যাট নির্বাচন করুন"
+  },
+  "btnStartBatch": {
+    "message": "$COUNT$টি চ্যাট বের করুন",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "1টি চ্যাট বের করুন"
+  },
+  "btnStartExtraction": {
+    "message": "এক্সপোর্ট শুরু করুন"
+  },
+  "btnStartNewExtraction": {
+    "message": "নতুন এক্সপোর্ট"
+  },
+  "btnStopBatch": {
+    "message": "ব্যাচ বন্ধ করুন"
+  },
+  "btnStopExtraction": {
+    "message": "এক্সপোর্ট থামান"
+  },
+  "btnStopFileDownload": {
+    "message": "ডাউনলোড বন্ধ করুন"
+  },
+  "buyMeCoffee": {
+    "message": "প্রকল্পকে সহায়তা করুন"
+  },
+  "consoleTitle": {
+    "message": "কার্যকলাপ লগ"
+  },
+  "csvAuthor": {
+    "message": "প্রেরক"
+  },
+  "csvMessage": {
+    "message": "লেখা"
+  },
+  "csvQuotedAuthor": {
+    "message": "উদ্ধৃত লেখক"
+  },
+  "csvQuotedMessage": {
+    "message": "উদ্ধৃত বার্তা"
+  },
+  "csvQuotedTime": {
+    "message": "উদ্ধৃতির সময়"
+  },
+  "csvReactions": {
+    "message": "প্রতিক্রিয়া"
+  },
+  "csvReplyTo": {
+    "message": "যার উত্তরে"
+  },
+  "csvSubject": {
+    "message": "শিরোনাম"
+  },
+  "csvThreadId": {
+    "message": "থ্রেড কী"
+  },
+  "csvTimestamp": {
+    "message": "পাঠানোর সময়"
+  },
+  "errorFileDownloadStart": {
+    "message": "ফাইল ডাউনলোড শুরু করতে ব্যর্থ"
+  },
+  "errorGeneric": {
+    "message": "এক্সপোর্টে সমস্যা হয়েছে"
+  },
+  "errorNoMessages": {
+    "message": "এখনও সংরক্ষণ করার মতো কিছু নেই"
+  },
+  "errorStartExtraction": {
+    "message": "এক্সপোর্ট শুরু করা যায়নি। Teams ট্যাব রিলোড করে আবার চেষ্টা করুন।"
+  },
+  "errorZipBusy": {
+    "message": "আরেকটি ZIP ডাউনলোড ইতিমধ্যে চলছে। এটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন এবং আবার চেষ্টা করুন।"
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP ডাউনলোড শুরু করতে ব্যর্থ"
+  },
+  "extDescription": {
+    "message": "Microsoft Teams-এর চ্যাট ও চ্যানেল CSV, HTML বা Markdown-এ এক্সপোর্ট করুন।"
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$টি ফাইল ব্যর্থ হয়েছে",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "পাথ খুব দীর্ঘ হওয়ায় কিছু ফাইল ব্যর্থ হয়েছে। ছোট ডাউনলোড ফোল্ডার বেছে নিন বা Windows-এ দীর্ঘ পাথ সক্ষম করুন।"
+  },
+  "fileErrorsList": {
+    "message": "ব্যর্থ ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "সব $COUNT$টি ফাইল সফলভাবে ডাউনলোড হয়েছে",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "সম্পন্ন: $DONE$/$TOTAL$টি ফাইল ডাউনলোড হয়েছে",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "$DONE$/$TOTAL$টি ফাইল ডাউনলোড হচ্ছে",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "ZIP প্রস্তুত হচ্ছে ($COUNT$টি ফাইল)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Teams সাইডবার থেকে একাধিক চ্যাট ও চ্যানেল একটি ZIP-এ বের করে।"
+  },
+  "hintCurrentChat": {
+    "message": "Teams-এ বর্তমানে খোলা চ্যাট বা চ্যানেল বের করে।"
+  },
+  "htmlImageNote": {
+    "message": "কিছু ছবি এই ট্রান্সক্রিপ্টে এম্বেড করা যায়নি। সেগুলো সংরক্ষণ করতে এক্সটেনশনের \"ফাইল ডাউনলোড করুন\" বোতাম ব্যবহার করুন এবং এই HTML-এর সাথে রাখুন।"
+  },
+  "htmlQuotedFrom": {
+    "message": "উদ্ধৃত উৎস"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams চ্যাট ট্রান্সক্রিপ্ট"
+  },
+  "lockBatchRunning": {
+    "message": "ব্যাচ নিষ্কাশন চলছে। এটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন বা ব্যাচ ট্যাব থেকে বন্ধ করুন।"
+  },
+  "lockSingleRunning": {
+    "message": "চ্যাট নিষ্কাশন চলছে। এটি শেষ হওয়া পর্যন্ত অপেক্ষা করুন বা বর্তমান চ্যাট ট্যাব থেকে বন্ধ করুন।"
+  },
+  "settingExtractFiles": {
+    "message": "শেয়ার করা ফাইলও সংগ্রহ করুন"
+  },
+  "settingThresholdDate": {
+    "message": "তারিখে থামুন (পুরোনো বার্তা বাদ দিন)"
+  },
+  "settingYourName": {
+    "message": "আপনার নাম (আপনার বার্তা হাইলাইট করতে)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "যেমন: রহিম উদ্দিন"
+  },
+  "settingZipDownloads": {
+    "message": "ফাইল ডাউনলোড একটি ZIP-এ একত্র করুন (সরাসরি ডিস্কে লেখা হয়)"
+  },
+  "statusComplete": {
+    "message": "$COUNT$ টি বার্তা বের করা হয়েছে · $FILES$ ফাইল",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "বের করা হচ্ছে… বার্তা: $COUNT$ · ফাইল পাওয়া গেছে: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "এক্সপোর্ট চলছে…"
+  },
+  "statusFailed": {
+    "message": "এক্সপোর্ট ব্যর্থ হয়েছে"
+  },
+  "statusFinalizing": {
+    "message": "শেষ করা হচ্ছে…"
+  },
+  "statusNotTeams": {
+    "message": "শুরু করতে একটি Teams চ্যাট বা চ্যানেল খুলুন"
+  },
+  "statusReady": {
+    "message": "এক্সপোর্টের জন্য প্রস্তুত"
+  },
+  "statusTotalTime": {
+    "message": "মোট সময়: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "শুরু হচ্ছে…"
+  },
+  "statusStopped": {
+    "message": "এক্সপোর্ট থামানো হয়েছে"
+  },
+  "tabBatch": {
+    "message": "ব্যাচ"
+  },
+  "tabCurrentChat": {
+    "message": "বর্তমান চ্যাট"
+  },
+  "toggleAdvancedSettings": {
+    "message": "আরও বিকল্প"
+  },
+  "toggleHideConsole": {
+    "message": "লগ লুকান"
+  },
+  "toggleHideSettings": {
+    "message": "বিকল্প লুকান"
+  },
+  "toggleShowConsole": {
+    "message": "লগ দেখান"
+  },
+  "unknownAuthor": {
+    "message": "অজানা"
+  }
+}

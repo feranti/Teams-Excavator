@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "جارٍ إنشاء ملف ZIP..."
+  },
+  "batchChatError": {
+    "message": "خطأ: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "جارٍ الاستخراج: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "تنسيق التصدير"
+  },
+  "batchGroupChannels": {
+    "message": "القنوات"
+  },
+  "batchGroupChats": {
+    "message": "المحادثات"
+  },
+  "batchKeepVisible": {
+    "message": "أبقِ علامة تبويب Teams ظاهرة حتى انتهاء الدفعة: يتوقف Teams مؤقتًا في علامة تبويب في الخلفية أو نافذة مصغّرة، وتنتظره الدفعة."
+  },
+  "batchLoadingChats": {
+    "message": "جارٍ تحميل المحادثات من الشريط الجانبي..."
+  },
+  "batchNoChats": {
+    "message": "لم يتم العثور على محادثات أو قنوات في الشريط الجانبي"
+  },
+  "batchProgress": {
+    "message": "تقدم الدفعة"
+  },
+  "batchSelectAll": {
+    "message": "تحديد الكل"
+  },
+  "batchSelectChats": {
+    "message": "المحادثات والقنوات"
+  },
+  "batchStatusComplete": {
+    "message": "اكتملت الدفعة: تم تصدير $COUNT$ محادثة إلى ملف ZIP",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "انتهت الدفعة: لم يتم تصدير أي رسائل"
+  },
+  "batchStatusReady": {
+    "message": "اكتملت الدفعة: $COUNT$ محادثة جاهزة للتنزيل",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "إعادة ضبط"
+  },
+  "btnCopied": {
+    "message": "تم النسخ!"
+  },
+  "btnCopy": {
+    "message": "نسخ"
+  },
+  "btnDownloadCSV": {
+    "message": "حفظ بصيغة CSV"
+  },
+  "btnDownloadFiles": {
+    "message": "تنزيل الملفات ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "تنزيل HTML"
+  },
+  "btnDownloadMD": {
+    "message": "حفظ بصيغة Markdown"
+  },
+  "btnDownloadZip": {
+    "message": "تنزيل ZIP"
+  },
+  "btnDownloadingFiles": {
+    "message": "جارٍ تنزيل الملفات ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "جارٍ الإتمام…"
+  },
+  "btnRefresh": {
+    "message": "تحديث"
+  },
+  "btnSelectChats": {
+    "message": "حدد المحادثات المراد استخراجها"
+  },
+  "btnSelectFormat": {
+    "message": "اختر تنسيقًا"
+  },
+  "btnStartBatch": {
+    "message": "استخراج $COUNT$ محادثة",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "استخراج محادثة واحدة"
+  },
+  "btnStartExtraction": {
+    "message": "ابدأ التصدير"
+  },
+  "btnStartNewExtraction": {
+    "message": "تصدير جديد"
+  },
+  "btnStopBatch": {
+    "message": "إيقاف الدفعة"
+  },
+  "btnStopExtraction": {
+    "message": "إيقاف التصدير"
+  },
+  "btnStopFileDownload": {
+    "message": "إيقاف التنزيل"
+  },
+  "buyMeCoffee": {
+    "message": "ادعم المشروع"
+  },
+  "consoleTitle": {
+    "message": "سجل النشاط"
+  },
+  "csvAuthor": {
+    "message": "المُرسِل"
+  },
+  "csvMessage": {
+    "message": "النص"
+  },
+  "csvQuotedAuthor": {
+    "message": "كاتب الاقتباس"
+  },
+  "csvQuotedMessage": {
+    "message": "الرسالة المقتبسة"
+  },
+  "csvQuotedTime": {
+    "message": "وقت الاقتباس"
+  },
+  "csvReactions": {
+    "message": "التفاعلات"
+  },
+  "csvReplyTo": {
+    "message": "ردًّا على"
+  },
+  "csvSubject": {
+    "message": "العنوان"
+  },
+  "csvThreadId": {
+    "message": "مفتاح المحادثة"
+  },
+  "csvTimestamp": {
+    "message": "وقت الإرسال"
+  },
+  "errorFileDownloadStart": {
+    "message": "تعذّر بدء تنزيل الملفات"
+  },
+  "errorGeneric": {
+    "message": "واجه التصدير مشكلة"
+  },
+  "errorNoMessages": {
+    "message": "لا شيء لحفظه بعد"
+  },
+  "errorStartExtraction": {
+    "message": "تعذّر بدء التصدير. أعد تحميل علامة تبويب Teams وحاول مجددًا."
+  },
+  "errorZipBusy": {
+    "message": "هناك تنزيل ZIP آخر قيد التقدم بالفعل. انتظر حتى ينتهي ثم أعد المحاولة."
+  },
+  "errorZipStartFailed": {
+    "message": "تعذّر بدء تنزيل ZIP"
+  },
+  "extDescription": {
+    "message": "صدّر محادثات Microsoft Teams وقنواته إلى CSV أو HTML أو Markdown."
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "فشل تنزيل $COUNT$ ملف",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "فشلت بعض الملفات لأن المسار طويل جدًا. اختر مجلد تنزيلات أقصر أو فعّل المسارات الطويلة في Windows."
+  },
+  "fileErrorsList": {
+    "message": "فشل ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "تم تنزيل جميع الملفات ($COUNT$) بنجاح",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "تم: تنزيل $DONE$/$TOTAL$ ملف",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "جارٍ تنزيل $DONE$/$TOTAL$ ملف",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "جارٍ تجهيز ملف ZIP ($COUNT$ ملف)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "يستخرج عدة محادثات وقنوات من الشريط الجانبي في Teams إلى ملف ZIP واحد."
+  },
+  "hintCurrentChat": {
+    "message": "يستخرج المحادثة أو القناة المفتوحة حاليًا في Teams."
+  },
+  "htmlImageNote": {
+    "message": "تعذّر تضمين بعض الصور في هذا النص. استخدم زر «تنزيل الملفات» في الإضافة لحفظها، ثم احتفظ بها بجانب ملف HTML هذا."
+  },
+  "htmlQuotedFrom": {
+    "message": "مقتبس من"
+  },
+  "htmlTranscriptTitle": {
+    "message": "نص محادثة Teams"
+  },
+  "lockBatchRunning": {
+    "message": "يجري استخراج دفعة. انتظر حتى ينتهي أو أوقفه من علامة التبويب «دفعة»."
+  },
+  "lockSingleRunning": {
+    "message": "يجري استخراج محادثة. انتظر حتى ينتهي أو أوقفه من علامة التبويب «المحادثة الحالية»."
+  },
+  "settingExtractFiles": {
+    "message": "اجمع الملفات المشتركة أيضًا"
+  },
+  "settingThresholdDate": {
+    "message": "التوقف عند تاريخ (تخطي الرسائل الأقدم)"
+  },
+  "settingYourName": {
+    "message": "اسمك (لتمييز رسائلك)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "مثال: أحمد علي"
+  },
+  "settingZipDownloads": {
+    "message": "تجميع تنزيلات الملفات في ملف ZIP واحد (يُكتب مباشرة على القرص)"
+  },
+  "statusComplete": {
+    "message": "تم استخراج $COUNT$ رسالة · $FILES$ ملفات",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "جارٍ الاستخراج… الرسائل: $COUNT$ · الملفات الموجودة: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "التصدير قيد التنفيذ…"
+  },
+  "statusFailed": {
+    "message": "فشل التصدير"
+  },
+  "statusFinalizing": {
+    "message": "جارٍ الإتمام…"
+  },
+  "statusNotTeams": {
+    "message": "افتح محادثة أو قناة في Teams للبدء"
+  },
+  "statusReady": {
+    "message": "جاهز للتصدير"
+  },
+  "statusTotalTime": {
+    "message": "الوقت الإجمالي: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "جارٍ البدء…"
+  },
+  "statusStopped": {
+    "message": "تم إيقاف التصدير"
+  },
+  "tabBatch": {
+    "message": "دفعة"
+  },
+  "tabCurrentChat": {
+    "message": "المحادثة الحالية"
+  },
+  "toggleAdvancedSettings": {
+    "message": "خيارات إضافية"
+  },
+  "toggleHideConsole": {
+    "message": "إخفاء السجل"
+  },
+  "toggleHideSettings": {
+    "message": "إخفاء الخيارات"
+  },
+  "toggleShowConsole": {
+    "message": "إظهار السجل"
+  },
+  "unknownAuthor": {
+    "message": "غير معروف"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "batchBuildingZip": {
+    "message": "ZIP बनाया जा रहा है..."
+  },
+  "batchChatError": {
+    "message": "त्रुटि: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchChatExtracting": {
+    "message": "निकाला जा रहा है: $NAME$",
+    "placeholders": {
+      "name": {
+        "content": "$1",
+        "example": "Project team"
+      }
+    }
+  },
+  "batchExportFormat": {
+    "message": "निर्यात प्रारूप"
+  },
+  "batchGroupChannels": {
+    "message": "चैनल"
+  },
+  "batchGroupChats": {
+    "message": "चैट"
+  },
+  "batchKeepVisible": {
+    "message": "बैच पूरा होने तक Teams टैब को दिखाई देता रखें: बैकग्राउंड टैब या छोटी की गई विंडो में Teams रुक जाता है, और बैच उसका इंतज़ार करता है।"
+  },
+  "batchLoadingChats": {
+    "message": "साइडबार से चैट लोड हो रही हैं..."
+  },
+  "batchNoChats": {
+    "message": "साइडबार में कोई चैट या चैनल नहीं मिला"
+  },
+  "batchProgress": {
+    "message": "बैच प्रगति"
+  },
+  "batchSelectAll": {
+    "message": "सभी चुनें"
+  },
+  "batchSelectChats": {
+    "message": "चैट और चैनल"
+  },
+  "batchStatusComplete": {
+    "message": "बैच पूर्ण: $COUNT$ चैट ZIP में निर्यात की गईं",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "batchStatusNothing": {
+    "message": "बैच समाप्त: कोई संदेश निर्यात नहीं हुआ"
+  },
+  "batchStatusReady": {
+    "message": "बैच पूरा हुआ: $COUNT$ चैट डाउनलोड के लिए तैयार",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnClear": {
+    "message": "रीसेट करें"
+  },
+  "btnCopied": {
+    "message": "कॉपी हो गया!"
+  },
+  "btnCopy": {
+    "message": "कॉपी करें"
+  },
+  "btnDownloadCSV": {
+    "message": "CSV के रूप में सहेजें"
+  },
+  "btnDownloadFiles": {
+    "message": "फ़ाइलें डाउनलोड करें ($COUNT$)",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnDownloadHTML": {
+    "message": "HTML डाउनलोड करें"
+  },
+  "btnDownloadMD": {
+    "message": "Markdown के रूप में सहेजें"
+  },
+  "btnDownloadZip": {
+    "message": "ZIP डाउनलोड करें"
+  },
+  "btnDownloadingFiles": {
+    "message": "फ़ाइलें डाउनलोड हो रही हैं ($DONE$/$TOTAL$)",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "btnFinalizing": {
+    "message": "पूरा किया जा रहा है…"
+  },
+  "btnRefresh": {
+    "message": "रीफ़्रेश करें"
+  },
+  "btnSelectChats": {
+    "message": "निकालने के लिए चैट चुनें"
+  },
+  "btnSelectFormat": {
+    "message": "प्रारूप चुनें"
+  },
+  "btnStartBatch": {
+    "message": "$COUNT$ चैट निकालें",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "btnStartBatchOne": {
+    "message": "1 चैट निकालें"
+  },
+  "btnStartExtraction": {
+    "message": "एक्सपोर्ट शुरू करें"
+  },
+  "btnStartNewExtraction": {
+    "message": "नया एक्सपोर्ट"
+  },
+  "btnStopBatch": {
+    "message": "बैच रोकें"
+  },
+  "btnStopExtraction": {
+    "message": "एक्सपोर्ट रोकें"
+  },
+  "btnStopFileDownload": {
+    "message": "डाउनलोड रोकें"
+  },
+  "buyMeCoffee": {
+    "message": "प्रोजेक्ट का समर्थन करें"
+  },
+  "consoleTitle": {
+    "message": "गतिविधि लॉग"
+  },
+  "csvAuthor": {
+    "message": "भेजने वाला"
+  },
+  "csvMessage": {
+    "message": "पाठ"
+  },
+  "csvQuotedAuthor": {
+    "message": "उद्धृत लेखक"
+  },
+  "csvQuotedMessage": {
+    "message": "उद्धृत संदेश"
+  },
+  "csvQuotedTime": {
+    "message": "उद्धरण का समय"
+  },
+  "csvReactions": {
+    "message": "प्रतिक्रियाएँ"
+  },
+  "csvReplyTo": {
+    "message": "इसके उत्तर में"
+  },
+  "csvSubject": {
+    "message": "शीर्षक"
+  },
+  "csvThreadId": {
+    "message": "थ्रेड कुंजी"
+  },
+  "csvTimestamp": {
+    "message": "भेजे जाने का समय"
+  },
+  "errorFileDownloadStart": {
+    "message": "फ़ाइल डाउनलोड शुरू करने में विफल"
+  },
+  "errorGeneric": {
+    "message": "एक्सपोर्ट में समस्या आई"
+  },
+  "errorNoMessages": {
+    "message": "अभी सहेजने के लिए कुछ नहीं है"
+  },
+  "errorStartExtraction": {
+    "message": "एक्सपोर्ट शुरू नहीं हो सका। Teams टैब रीलोड करें और फिर कोशिश करें।"
+  },
+  "errorZipBusy": {
+    "message": "एक अन्य ZIP डाउनलोड पहले से चल रहा है। उसके पूरा होने की प्रतीक्षा करें और पुनः प्रयास करें।"
+  },
+  "errorZipStartFailed": {
+    "message": "ZIP डाउनलोड शुरू करने में विफल"
+  },
+  "extDescription": {
+    "message": "Microsoft Teams की चैट और चैनल CSV, HTML या Markdown में एक्सपोर्ट करें।"
+  },
+  "extName": {
+    "message": "Teams Excavator"
+  },
+  "fileErrorsCount": {
+    "message": "$COUNT$ फ़ाइलें विफल रहीं",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "filePathTooLongHint": {
+    "message": "कुछ फ़ाइलें विफल रहीं क्योंकि पथ बहुत लंबा है। छोटा डाउनलोड फ़ोल्डर चुनें या Windows में लंबे पथ सक्षम करें।"
+  },
+  "fileErrorsList": {
+    "message": "विफल ($COUNT$): $NAMES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "2"
+      },
+      "names": {
+        "content": "$2",
+        "example": "report.pdf, notes.docx"
+      }
+    }
+  },
+  "fileProgressAllDone": {
+    "message": "सभी $COUNT$ फ़ाइलें सफलतापूर्वक डाउनलोड हो गईं",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "fileProgressDone": {
+    "message": "पूर्ण: $DONE$/$TOTAL$ फ़ाइलें डाउनलोड हुईं",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressDownloading": {
+    "message": "$DONE$/$TOTAL$ फ़ाइलें डाउनलोड हो रही हैं",
+    "placeholders": {
+      "done": {
+        "content": "$1",
+        "example": "2"
+      },
+      "total": {
+        "content": "$2",
+        "example": "5"
+      }
+    }
+  },
+  "fileProgressPreparingZip": {
+    "message": "ZIP तैयार किया जा रहा है ($COUNT$ फ़ाइलें)...",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "3"
+      }
+    }
+  },
+  "headerTitle": {
+    "message": "Teams Excavator"
+  },
+  "hintBatch": {
+    "message": "Teams साइडबार से कई चैट और चैनल को एक ही ZIP में निकालता है।"
+  },
+  "hintCurrentChat": {
+    "message": "Teams में अभी खुली चैट या चैनल को निकालता है।"
+  },
+  "htmlImageNote": {
+    "message": "कुछ छवियाँ इस ट्रांसक्रिप्ट में एम्बेड नहीं की जा सकीं। उन्हें सहेजने के लिए एक्सटेंशन के \"फ़ाइलें डाउनलोड करें\" बटन का उपयोग करें और उन्हें इस HTML के साथ रखें।"
+  },
+  "htmlQuotedFrom": {
+    "message": "उद्धृत स्रोत"
+  },
+  "htmlTranscriptTitle": {
+    "message": "Teams चैट ट्रांसक्रिप्ट"
+  },
+  "lockBatchRunning": {
+    "message": "बैच निष्कर्षण चल रहा है। उसके पूरा होने की प्रतीक्षा करें या बैच टैब से उसे रोकें।"
+  },
+  "lockSingleRunning": {
+    "message": "चैट निष्कर्षण चल रहा है। उसके पूरा होने की प्रतीक्षा करें या वर्तमान चैट टैब से उसे रोकें।"
+  },
+  "settingExtractFiles": {
+    "message": "साझा फ़ाइलें भी इकट्ठा करें"
+  },
+  "settingThresholdDate": {
+    "message": "तारीख पर रुकें (पुराने संदेश छोड़ें)"
+  },
+  "settingYourName": {
+    "message": "आपका नाम (आपके संदेशों को हाइलाइट करने के लिए)"
+  },
+  "settingYourNamePlaceholder": {
+    "message": "उदा. राहुल शर्मा"
+  },
+  "settingZipDownloads": {
+    "message": "फ़ाइल डाउनलोड को एक ZIP में बंडल करें (सीधे डिस्क पर सहेजा जाता है)"
+  },
+  "statusComplete": {
+    "message": "$COUNT$ संदेश निकाले गए · $FILES$ फ़ाइलें",
+    "placeholders": {
+      "files": {
+        "content": "$2",
+        "example": "3"
+      },
+      "count": {
+        "content": "$1",
+        "example": "42"
+      }
+    }
+  },
+  "statusExtractingProgress": {
+    "message": "निकाला जा रहा है… संदेश: $COUNT$ · फ़ाइलें मिलीं: $FILES$",
+    "placeholders": {
+      "count": {
+        "content": "$1",
+        "example": "42"
+      },
+      "files": {
+        "content": "$2",
+        "example": "3"
+      }
+    }
+  },
+  "statusExtracting": {
+    "message": "एक्सपोर्ट चल रहा है…"
+  },
+  "statusFailed": {
+    "message": "एक्सपोर्ट विफल रहा"
+  },
+  "statusFinalizing": {
+    "message": "पूरा किया जा रहा है…"
+  },
+  "statusNotTeams": {
+    "message": "शुरू करने के लिए Teams चैट या चैनल खोलें"
+  },
+  "statusReady": {
+    "message": "एक्सपोर्ट के लिए तैयार"
+  },
+  "statusTotalTime": {
+    "message": "कुल समय: $TIME$",
+    "placeholders": {
+      "time": {
+        "content": "$1",
+        "example": "1m 5s"
+      }
+    }
+  },
+  "statusStarting": {
+    "message": "शुरू हो रहा है…"
+  },
+  "statusStopped": {
+    "message": "एक्सपोर्ट रोका गया"
+  },
+  "tabBatch": {
+    "message": "बैच"
+  },
+  "tabCurrentChat": {
+    "message": "वर्तमान चैट"
+  },
+  "toggleAdvancedSettings": {
+    "message": "अधिक विकल्प"
+  },
+  "toggleHideConsole": {
+    "message": "लॉग छिपाएँ"
+  },
+  "toggleHideSettings": {
+    "message": "विकल्प छिपाएँ"
+  },
+  "toggleShowConsole": {
+    "message": "लॉग दिखाएँ"
+  },
+  "unknownAuthor": {
+    "message": "अज्ञात"
+  }
+}
