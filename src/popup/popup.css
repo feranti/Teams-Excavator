@@ -670,14 +670,20 @@ button.primary:hover:not(:disabled) {
     text-align: center;
 }
 
+@font-face {
+    font-family: Cookie;
+    src: url("fonts/Cookie-Regular.ttf") format("truetype");
+}
+
 .coffee {
     display: inline-block;
-    padding: 6px 14px;
-    background: var(--accent);
+    padding: 7px 16px;
+    background: #FFDD00;
+    border: 1px solid #000000;
     border-radius: 5px;
-    color: var(--on-accent);
-    font-size: 12px;
-    font-weight: 600;
+    color: #000000;
+    font-family: Cookie, "Segoe Script", "Brush Script MT", cursive;
+    font-size: 17px;
     text-decoration: none;
 }
 
