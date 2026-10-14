@@ -1,4 +1,4 @@
-# Teams Chat Extractor
+# Teams Excavator
 
 A Chrome / Edge extension (Manifest V3) that exports Microsoft Teams chats and file attachments straight from the Teams web client.
 
