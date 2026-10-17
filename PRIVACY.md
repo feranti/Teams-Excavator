@@ -1,8 +1,8 @@
 # Privacy Policy
 
-_Last updated: 2026-10-03_
+_Last updated: 2026-10-17_
 
-This policy applies to the browser extension **Teams Chat Extractor** (the "extension").
+This policy applies to the browser extension **Teams Excavator** (the "extension").
 
 ## Summary
 

@@ -1,0 +1,40 @@
+Export any Microsoft Teams chat or channel in one click, files and images included.
+
+Teams has no simple way to export a conversation. Copy-pasting loses authors, dates, replies and images, and admin exports are out of reach for most people. Teams Excavator scrolls through the whole history for you and turns it into files you can read, search, archive or feed to other tools.
+
+HOW IT WORKS
+1. Open Teams on the web and go to a chat or channel.
+2. Click the Teams Excavator icon and press Begin Export.
+3. Choose CSV, HTML, Markdown, or download every attachment as a ZIP.
+
+WHAT YOU GET
+• Every detail: authors, timestamps, quoted replies, reactions, mentions, code blocks and images stay where they were.
+• Chats, group chats and channels, including channel threads: replies are opened and captured.
+• Batch mode: tick dozens of chats and channels in your sidebar and get one transcript per conversation.
+• All your files: shared files and pasted images are streamed into a single ZIP, even when it runs into gigabytes.
+• Stop at a date to skip older messages.
+• Live progress with message and file counts, and a stop button.
+• Keeps running when you close the popup; downloads continue in the background.
+• Readable file names with the conversation name and date. Unnamed group chats are titled with their participants.
+• Files that fail to download are listed by name, never skipped silently.
+• 20 languages, including right-to-left Arabic and Urdu.
+
+EXPORT FORMATS
+• HTML: clean, readable transcripts with images embedded, ready to archive or share.
+• CSV: for Excel, filtering and data analysis.
+• Markdown: for notes, wikis and AI tools.
+• ZIP: every attachment of the conversation.
+
+PRIVATE BY DESIGN
+Everything runs in your browser. No server, no account, no analytics, no tracking. Your conversations never leave your computer: exports go straight to your Downloads folder. The extension only talks to Microsoft domains (Teams, SharePoint, OneDrive), with your existing Teams sign-in, to read the content you export.
+
+Works with teams.microsoft.com, teams.live.com and teams.cloud.microsoft.
+
+GOOD TO KNOW
+• Keep the Teams tab open while the export runs.
+• Only what Teams on the web can load is exported, and attachments must be accessible to your account.
+• A Microsoft update to Teams on the web may temporarily break extraction.
+
+Teams Excavator is open source (MIT License).
+
+Not affiliated with or endorsed by Microsoft. Microsoft Teams is a trademark of Microsoft Corporation. Only export data you are authorized to access, and respect your organization's policies.
