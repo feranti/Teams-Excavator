@@ -27,6 +27,14 @@ There is no build step. Load the folder as an unpacked extension.
 3. Enable **Developer mode**.
 4. Click **Load unpacked** and select the project folder.
 
+## Packaging for the Chrome Web Store
+
+```bash
+./pack.sh
+```
+
+Writes `dist/teams-excavator-<version>.zip` from the committed state (HEAD), with only the files the extension loads: `manifest.json`, `service-worker.js`, `src/`, `_locales/`, `icons/`. It refuses to run while those files have uncommitted changes; `--force` packs HEAD anyway. On Windows, run it from Git Bash.
+
 ## Usage
 
 1. Open [Teams on the web](https://teams.microsoft.com) and open the chat or channel you want to export.
