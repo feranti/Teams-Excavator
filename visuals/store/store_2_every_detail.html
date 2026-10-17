@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Store 2: every detail</title>
+<link rel="stylesheet" href="../../src/popup/popup.css">
+<link rel="stylesheet" href="store.css">
+<style>
+    /* The HTML transcript, styled like src/background/exporters.js (dark scheme). */
+    .export {
+        left: 384px;
+        top: 40px;
+        width: 392px;
+        height: 420px;
+        overflow: hidden;
+        background: #18181b;
+        color: #e6e6ea;
+        font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    .bar {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 9px 14px;
+        background: var(--surface);
+        border-bottom: 1px solid var(--line);
+        color: var(--text-dim);
+        font-size: 12px;
+    }
+
+    .bar i {
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--line-strong);
+    }
+
+    .bar span {
+        margin-left: 8px;
+    }
+
+    .page {
+        padding: 16px 18px;
+    }
+
+    .page h1 { font-size: 18px; margin: 0 0 2px; }
+    .meta { color: #9a9aa6; font-size: 12px; margin: 0 0 6px; }
+    h2.day { font-size: 13px; color: #9ea2ff; border-bottom: 1px solid #36363d; padding: 8px 0 5px; margin: 0 0 10px; }
+    .msg { background: #242428; border: 1px solid #36363d; border-left: 4px solid transparent; border-radius: 8px; padding: 9px 12px; margin-bottom: 8px; }
+    .msg.mine { background: #2b2940; border-left-color: #9ea2ff; }
+    .msg > header { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; margin-bottom: 4px; }
+    .author { font-weight: 600; }
+    time { color: #9a9aa6; font-size: 11px; white-space: nowrap; }
+    .body p { margin: 0; }
+    .mention { color: #9ea2ff; font-weight: 600; }
+    pre.code { background: #1e1e1e; color: #d4d4d4; border-radius: 6px; padding: 7px 10px; font: 11px/1.5 Consolas, Monaco, "Courier New", monospace; margin: 6px 0 0; }
+    .quote { margin: 2px 0 6px; padding: 6px 10px; border-left: 4px solid #9ea2ff; background: #2e2e34; border-radius: 0 8px 8px 0; }
+    .quote header { display: flex; gap: 8px; align-items: baseline; margin-bottom: 2px; }
+    .quote-label { text-transform: uppercase; letter-spacing: .5px; font-size: 10px; font-weight: 600; color: #9ea2ff; }
+    .quote-body { font-style: italic; color: #c8c8d0; }
+    .reactions { display: flex; gap: 6px; margin-top: 6px; }
+    .reaction { border: 1px solid #36363d; border-radius: 12px; padding: 0 8px; font-size: 12px; }
+    .reaction .count { color: #9a9aa6; font-size: 11px; margin-left: 4px; }
+</style>
+</head>
+<body>
+<div class="slab"></div>
+<div class="tabs"><i></i><i></i><i></i></div>
+
+<div class="copy">
+    <div class="brandline"><img src="../../icons/icon128.png" alt="">Teams Excavator</div>
+    <h1>Every message, <em>every detail</em></h1>
+    <p class="lead">Authors, timestamps, quoted replies, reactions, mentions, code and images stay exactly where they were.</p>
+    <ul class="points">
+        <li>Clean, readable HTML transcripts</li>
+        <li>CSV for Excel and analysis</li>
+        <li>Markdown for notes, wikis and AI tools</li>
+    </ul>
+</div>
+
+<div class="card export">
+    <div class="bar"><i></i><i></i><i></i><span>Project Apollo - General - 2026-10-17.html</span></div>
+    <div class="page">
+        <h1>Project Apollo › General</h1>
+        <p class="meta">318 messages · 6 authors</p>
+        <h2 class="day">Monday, October 12, 2026</h2>
+        <article class="msg">
+            <header><span class="author">Alex Martin</span><time>09:14</time></header>
+            <div class="body"><p>Build 2.4 is green. <span class="mention">@Sam</span> can you tag the release?</p></div>
+            <div class="reactions"><span class="reaction">👍<span class="count">3</span></span><span class="reaction">🎉</span></div>
+        </article>
+        <article class="msg mine">
+            <header><span class="author">Jordan Lee</span><time>09:21</time></header>
+            <div class="body">
+                <blockquote class="quote"><header><span class="quote-label">Replying to</span><span class="author">Alex Martin</span></header><div class="quote-body">Build 2.4 is green.</div></blockquote>
+                <p>Tagged and pushed:</p>
+                <pre class="code"><code>git tag v2.4.0 &amp;&amp; git push --tags</code></pre>
+            </div>
+        </article>
+        <article class="msg">
+            <header><span class="author">Sam Rivera</span><time>09:30</time></header>
+            <div class="body"><p>Release notes are in the Files tab.</p></div>
+        </article>
+    </div>
+</div>
+</body>
+</html>

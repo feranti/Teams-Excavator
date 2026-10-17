@@ -1,0 +1,156 @@
+/* Shared frame for the 800x500 Chrome Web Store screenshots.
+   Loaded after src/popup/popup.css; forces the dark theme. */
+
+:root {
+    --bg: #1b1b1f; --surface: #262629; --surface-2: #33333a; --surface-hi: #45456a;
+    --inset: #202024; --inset-deep: #131316; --line: #3a3a42; --line-strong: #55555f;
+    --text: #f0f0f4; --text-dim: #a8a8b4;
+    --accent: #8b8ff0; --accent-strong: #a5a8f6; --on-accent: #16162a;
+    --ok: #4cd964; --warn: #f2c94c; --err: #ff7b8f;
+    --alert-bg: #3a3218; --alert-line: #8a7126; --alert-text: #ffe9b0;
+    color-scheme: dark;
+}
+
+html, body {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+}
+
+body {
+    position: relative;
+    visibility: visible;
+}
+
+/* Accent slab bleeding off the top, right and bottom edges. */
+.slab {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 500px;
+    background: var(--accent);
+}
+
+/* Folder-tab motif, cut from the mode-tab shape. */
+.tabs {
+    position: absolute;
+    right: 24px;
+    top: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.tabs i {
+    width: 40px;
+    height: 12px;
+    background: var(--accent-strong);
+    border-radius: 0 0 8px 8px;
+}
+
+/* --- copy column --- */
+
+.copy {
+    position: absolute;
+    left: 44px;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brandline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.brandline img {
+    width: 22px;
+    height: 22px;
+}
+
+.copy h1 {
+    margin-top: 18px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.4px;
+}
+
+.copy h1 em {
+    font-style: normal;
+    color: var(--accent);
+}
+
+.copy .lead {
+    margin-top: 16px;
+    color: var(--text-dim);
+    font-size: 15.5px;
+    line-height: 1.45;
+}
+
+.points {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.points li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.points li::before {
+    content: '✓';
+    flex: none;
+    display: grid;
+    place-items: center;
+    width: 20px;
+    height: 20px;
+    background: var(--surface-hi);
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+    color: var(--text);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* --- visual column --- */
+
+/* The real popup, rendered with popup.css. */
+.mock {
+    position: absolute;
+    width: 380px;
+    background: var(--bg);
+    border: 1px solid var(--line-strong);
+    border-radius: 10px;
+}
+
+.mock .dot,
+.mock .tab-dot {
+    animation: none;
+}
+
+.mock .progress.indeterminate > div {
+    animation: none;
+    transform: translateX(120%);
+}
+
+/* A plain floating card on the slab. */
+.card {
+    position: absolute;
+    background: var(--surface);
+    border: 1px solid var(--line-strong);
+    border-radius: 10px;
+}

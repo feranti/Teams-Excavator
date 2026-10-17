@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Teams Excavator small promo tile</title>
+<link rel="stylesheet" href="../src/popup/popup.css">
+<style>
+    /* Dark theme tokens, forced so the tile renders the same everywhere. */
+    :root {
+        --bg: #1b1b1f; --surface: #262629; --surface-2: #33333a; --surface-hi: #45456a;
+        --inset: #202024; --line: #3a3a42; --line-strong: #55555f;
+        --text: #f0f0f4; --text-dim: #a8a8b4;
+        --accent: #8b8ff0; --accent-strong: #a5a8f6; --on-accent: #16162a;
+        --ok: #4cd964; --warn: #f2c94c; --err: #ff7b8f;
+        color-scheme: dark;
+    }
+
+    html, body {
+        width: 440px;
+        height: 280px;
+        overflow: hidden;
+    }
+
+    body {
+        position: relative;
+        visibility: visible;
+    }
+
+    /* Accent slab bleeding off the top, right and bottom edges. */
+    .slab {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 112px;
+        height: 280px;
+        background: var(--accent);
+    }
+
+    /* Folder-tab motif, cut from the mode-tab shape. */
+    .tabs {
+        position: absolute;
+        right: 14px;
+        top: 0;
+        display: flex;
+        gap: 4px;
+    }
+
+    .tabs i {
+        width: 22px;
+        height: 10px;
+        background: var(--accent-strong);
+        border-radius: 0 0 6px 6px;
+    }
+
+    .copy {
+        position: absolute;
+        left: 28px;
+        top: 58px;
+        width: 290px;
+    }
+
+    .brand h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.3px;
+    }
+
+    .tagline {
+        margin-top: 18px;
+        color: var(--text-dim);
+        font-size: 16px;
+        line-height: 1.35;
+    }
+
+    .copy .formats {
+        margin-top: 22px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .copy .format {
+        flex: none;
+        width: auto;
+        padding: 6px 9px;
+        font-size: 12.5px;
+        border-width: 1.5px;
+        border-radius: 6px;
+    }
+
+    /* The logo sits on the slab, half over its left edge. */
+    .logo-big {
+        position: absolute;
+        right: 56px;
+        top: 72px;
+        width: 96px;
+        height: 96px;
+    }
+</style>
+</head>
+<body>
+<div class="slab"></div>
+<div class="tabs"><i></i><i></i><i></i></div>
+<img class="logo-big" src="../icons/icon128.png" alt="">
+
+<div class="copy">
+    <div class="brand">
+        <h1>Teams Excavator</h1>
+    </div>
+    <p class="tagline">Export Teams chats and channels, attachments included.</p>
+    <div class="formats">
+        <button class="format" aria-pressed="true">CSV</button>
+        <button class="format" aria-pressed="true">HTML</button>
+        <button class="format" aria-pressed="true">Markdown</button>
+        <button class="format" aria-pressed="true">ZIP</button>
+    </div>
+</div>
+</body>
+</html>

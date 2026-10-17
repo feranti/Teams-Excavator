@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Store 3: batch</title>
+<link rel="stylesheet" href="../../src/popup/popup.css">
+<link rel="stylesheet" href="store.css">
+<style>
+    .mock .chat-list { max-height: none; }
+    .mock .muted { margin-left: 6px; }
+</style>
+</head>
+<body>
+<div class="slab"></div>
+<div class="tabs"><i></i><i></i><i></i></div>
+
+<div class="copy">
+    <div class="brandline"><img src="../../icons/icon128.png" alt="">Teams Excavator</div>
+    <h1>Back up <em>dozens of chats</em> at once</h1>
+    <p class="lead">Tick the chats and channels you need from your Teams sidebar. They all land in a single ZIP.</p>
+    <ul class="points">
+        <li>Chats and channels, grouped like Teams</li>
+        <li>One transcript per conversation</li>
+        <li>Live progress for every chat</li>
+    </ul>
+</div>
+
+<div class="mock" style="left:396px; top:18px">
+    <div class="container">
+        <nav class="mode-tabs" style="margin-top:0">
+            <button class="mode-tab"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg><span>Current chat</span></button>
+            <button class="mode-tab active"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg><span>Batch</span></button>
+        </nav>
+        <section class="panel">
+            <div id="batchSetup">
+                <div class="list-header">
+                    <span>Chats &amp; channels <span class="muted">12 / 44</span></span>
+                    <button class="small-btn">Refresh</button>
+                </div>
+                <div class="chat-list">
+                    <label class="all"><input type="checkbox"> Select all</label>
+                    <div class="node">
+                        <div class="node-head"><button class="caret" aria-expanded="true"></button><label><input type="checkbox"> Chats <span class="muted">10 / 27</span></label></div>
+                        <div class="node-items">
+                            <label><input type="checkbox" checked> Alex Martin</label>
+                            <label><input type="checkbox" checked> Launch war room</label>
+                        </div>
+                    </div>
+                    <div class="node">
+                        <div class="node-head"><button class="caret" aria-expanded="true"></button><label><input type="checkbox" checked> Project Apollo <span class="muted">2 / 2</span></label></div>
+                        <div class="node-items">
+                            <label><input type="checkbox" checked> General</label>
+                            <label><input type="checkbox" checked> Releases</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="label">Export format</div>
+                <div class="formats">
+                    <button class="format" aria-pressed="false">CSV</button>
+                    <button class="format" aria-pressed="true">HTML</button>
+                    <button class="format" aria-pressed="true">Markdown</button>
+                </div>
+                <div class="controls"><button class="primary">Extract 12 chats</button></div>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>

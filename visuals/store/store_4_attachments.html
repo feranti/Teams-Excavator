@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Store 4: attachments</title>
+<link rel="stylesheet" href="../../src/popup/popup.css">
+<link rel="stylesheet" href="store.css">
+<style>
+    .zip {
+        left: 420px;
+        top: 44px;
+        width: 340px;
+        padding: 6px 0;
+    }
+
+    .zip h2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 16px 12px;
+        border-bottom: 1px solid var(--line);
+        font-size: 14px;
+    }
+
+    .zip h2 svg {
+        width: 20px;
+        height: 20px;
+        color: var(--accent);
+    }
+
+    .zip ul {
+        list-style: none;
+        padding: 6px 0;
+    }
+
+    .zip li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 6px 16px;
+        font-size: 12.5px;
+    }
+
+    .zip li.sub {
+        padding-left: 40px;
+    }
+
+    .zip li svg {
+        flex: none;
+        width: 16px;
+        height: 16px;
+        color: var(--text-dim);
+    }
+
+    .zip li span {
+        flex: 1;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .zip li small {
+        color: var(--text-dim);
+        font-size: 11.5px;
+    }
+
+    .files-mock {
+        left: 384px;
+        top: 318px;
+        width: 330px;
+    }
+
+    .files-mock .box {
+        margin-top: 0;
+        background: var(--surface);
+    }
+</style>
+</head>
+<body>
+<div class="slab"></div>
+<div class="tabs"><i></i><i></i><i></i></div>
+
+<div class="copy">
+    <div class="brandline"><img src="../../icons/icon128.png" alt="">Teams Excavator</div>
+    <h1>All your files, in <em>one ZIP</em></h1>
+    <p class="lead">Shared files and pasted images are collected and streamed into a single archive, even when it runs into gigabytes.</p>
+    <ul class="points">
+        <li>Streamed straight to disk (ZIP64)</li>
+        <li>Images embedded in the HTML</li>
+        <li>Any failed file named, never hidden</li>
+    </ul>
+</div>
+
+<div class="card zip">
+    <h2><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 6h-8l-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-2 6h-2v2h2v2h-2v2h-2v-2h2v-2h-2v-2h2v-2h-2V8h2v2h2v2z"/></svg>Project Apollo - General.zip</h2>
+    <ul>
+        <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg><span>General.html</span><small>2.1 MB</small></li>
+        <li><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg><span>files</span><small>24 files</small></li>
+        <li class="sub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg><span>Roadmap Q4.pptx</span><small>18.4 MB</small></li>
+        <li class="sub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm4 18H6V4h7v5h5v11z"/></svg><span>Release notes 2.4.pdf</span><small>640 KB</small></li>
+        <li class="sub"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg><span>dashboard.png</span><small>312 KB</small></li>
+    </ul>
+</div>
+
+<div class="mock files-mock" style="border:none; background:none">
+    <div class="box">
+        <div class="progress"><div style="width:75%"></div></div>
+        <div class="small">Downloading 18/24 files</div>
+        <button>Stop File Download</button>
+    </div>
+</div>
+</body>
+</html>

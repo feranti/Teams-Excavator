@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Store 1: one click</title>
+<link rel="stylesheet" href="../../src/popup/popup.css">
+<link rel="stylesheet" href="store.css">
+</head>
+<body>
+<div class="slab"></div>
+<div class="tabs"><i></i><i></i><i></i></div>
+
+<div class="copy">
+    <div class="brandline"><img src="../../icons/icon128.png" alt="">Teams Excavator</div>
+    <h1>Export any Teams chat in <em>one click</em></h1>
+    <p class="lead">Open a chat or channel and press Begin Export. The whole history is scrolled and saved for you.</p>
+    <ul class="points">
+        <li>Chats, group chats and channels</li>
+        <li>Stop at any date you choose</li>
+        <li>Keeps running if you close the popup</li>
+    </ul>
+</div>
+
+<div class="mock" style="left:396px; top:62px">
+    <div class="container">
+        <header class="header">
+            <h1><img class="logo" src="../../icons/icon128.png" alt=""><span>Teams Excavator</span></h1>
+            <button class="icon-btn" type="button"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19.14 12.94c.04-.31.06-.63.06-.94s-.02-.63-.06-.94l2.03-1.58a.5.5 0 0 0 .12-.64l-1.92-3.32a.5.5 0 0 0-.61-.22l-2.39.96a7.03 7.03 0 0 0-1.62-.94l-.36-2.54a.5.5 0 0 0-.5-.42h-3.84a.5.5 0 0 0-.5.42l-.36 2.54c-.59.24-1.13.56-1.62.94l-2.39-.96a.5.5 0 0 0-.61.22L2.71 8.84a.5.5 0 0 0 .12.64l2.03 1.58c-.04.31-.07.63-.07.94s.03.63.07.94L2.83 14.52a.5.5 0 0 0-.12.64l1.92 3.32c.13.22.39.31.61.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.26.42.5.42h3.84c.25 0 .46-.18.5-.42l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.09.48 0 .61-.22l1.92-3.32a.5.5 0 0 0-.12-.64l-2.03-1.58zM12 15.6A3.6 3.6 0 1 1 12 8.4a3.6 3.6 0 0 1 0 7.2z"/></svg></button>
+            <select class="lang-select"><option>English</option></select>
+        </header>
+        <nav class="mode-tabs">
+            <button class="mode-tab active"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg><span>Current chat</span><span class="tab-dot"></span></button>
+            <button class="mode-tab"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg><span>Batch</span></button>
+        </nav>
+        <section class="panel">
+            <p class="hint">Extracts the chat or channel currently open in Teams.</p>
+            <div class="status">
+                <div class="status-line"><span class="dot running"></span><span>Extracting… Messages: 1,284 · Files Found: 37</span></div>
+                <div class="status-detail">Project Apollo › General</div>
+            </div>
+            <div class="controls">
+                <button>Halt Export</button>
+                <div class="progress indeterminate"><div></div></div>
+                <div>
+                    <div class="label">Export format</div>
+                    <div class="formats">
+                        <button class="format" aria-pressed="true">CSV</button>
+                        <button class="format" aria-pressed="true">HTML</button>
+                        <button class="format" aria-pressed="false">Markdown</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>

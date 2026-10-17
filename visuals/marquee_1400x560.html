@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Teams Excavator marquee</title>
+<link rel="stylesheet" href="../src/popup/popup.css">
+<style>
+    /* Dark theme tokens, forced so the banner renders the same everywhere. */
+    :root {
+        --bg: #1b1b1f; --surface: #262629; --surface-2: #33333a; --surface-hi: #45456a;
+        --inset: #202024; --line: #3a3a42; --line-strong: #55555f;
+        --text: #f0f0f4; --text-dim: #a8a8b4;
+        --accent: #8b8ff0; --accent-strong: #a5a8f6; --on-accent: #16162a;
+        --ok: #4cd964; --warn: #f2c94c; --err: #ff7b8f;
+        color-scheme: dark;
+    }
+
+    html, body {
+        width: 1400px;
+        height: 560px;
+        overflow: hidden;
+    }
+
+    body {
+        position: relative;
+        visibility: visible;
+    }
+
+    /* Accent slab bleeding off the top, right and bottom edges. */
+    .slab {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 470px;
+        height: 560px;
+        background: var(--accent);
+    }
+
+    /* Folder-tab motif, cut from the mode-tab shape. */
+    .tabs {
+        position: absolute;
+        left: 930px;
+        top: 0;
+        display: flex;
+        gap: 6px;
+    }
+
+    .tabs i {
+        width: 64px;
+        height: 18px;
+        background: var(--accent-strong);
+        border-radius: 0 0 8px 8px;
+    }
+
+    .copy {
+        position: absolute;
+        left: 96px;
+        top: 116px;
+        width: 640px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .brand img {
+        width: 92px;
+        height: 92px;
+    }
+
+    .brand h1 {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: -0.5px;
+    }
+
+    .tagline {
+        margin-top: 30px;
+        color: var(--text-dim);
+        font-size: 27px;
+        line-height: 1.35;
+    }
+
+    .copy .formats {
+        margin-top: 40px;
+        gap: 10px;
+        width: 560px;
+    }
+
+    .copy .format {
+        padding: 12px 0;
+        font-size: 19px;
+        border-width: 2px;
+        border-radius: 8px;
+    }
+
+    .facts {
+        margin-top: 26px;
+        color: var(--text-dim);
+        font-size: 17px;
+    }
+
+    .facts b {
+        color: var(--text);
+        font-weight: 600;
+    }
+
+    /* The real popup, rendered with popup.css and scaled up. */
+    .mock {
+        position: absolute;
+        left: 820px;
+        top: 64px;
+        width: 380px;
+        background: var(--bg);
+        border: 1px solid var(--line-strong);
+        border-radius: 10px;
+        transform: scale(1.32);
+        transform-origin: top left;
+    }
+
+    .mock .dot { animation: none; }
+</style>
+</head>
+<body>
+<div class="slab"></div>
+<div class="tabs"><i></i><i></i><i></i></div>
+
+<div class="copy">
+    <div class="brand">
+        <img src="../icons/icon128.png" alt="">
+        <h1>Teams Excavator</h1>
+    </div>
+    <p class="tagline">Export Microsoft Teams chats and channels to CSV, HTML or Markdown, attachments included.</p>
+    <div class="formats">
+        <button class="format" aria-pressed="true">CSV</button>
+        <button class="format" aria-pressed="true">HTML</button>
+        <button class="format" aria-pressed="true">Markdown</button>
+        <button class="format" aria-pressed="true">ZIP</button>
+    </div>
+    <p class="facts"><b>Runs locally</b> in your browser &nbsp;·&nbsp; <b>20</b> languages &nbsp;·&nbsp; <b>No</b> telemetry</p>
+</div>
+
+<div class="mock">
+    <div class="container">
+        <header class="header">
+            <h1><img class="logo" src="../icons/icon128.png" alt=""><span>Teams Excavator</span></h1>
+        </header>
+        <nav class="mode-tabs">
+            <button class="mode-tab active"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg><span>Current chat</span></button>
+            <button class="mode-tab"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 9h-4v4h-2v-4H9V9h4V5h2v4h4v2z"/></svg><span>Batch</span></button>
+        </nav>
+        <section class="panel">
+            <div class="status">
+                <div class="status-line"><span class="dot"></span><span>Done: 318 messages, 4 files</span></div>
+            </div>
+            <div class="controls">
+                <div class="progress"><div style="width:100%"></div></div>
+                <div class="row">
+                    <button>Download CSV</button>
+                    <button>Download Files (4)</button>
+                </div>
+                <button class="primary">Begin Export</button>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>
