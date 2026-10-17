@@ -12,7 +12,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # Project specific
-icons/icons_teams_excavator.ai
+visuals/icons_teams_excavator.ai
 
 # Store packages built by pack.sh
 dist/

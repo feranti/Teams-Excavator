@@ -3,6 +3,12 @@
 All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project follows [Semantic Versioning](https://semver.org/).
 
+## [0.9.2] - 2026-10-17
+
+### Changed
+
+- Icons re-exported from the vector source: the outer ring is gone, so the logo fills the icon.
+
 ## [0.9.1] - 2026-10-17
 
 ### Added
@@ -22,5 +28,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 - Initial release: chat and channel extraction from Teams on the web, with CSV, HTML, Markdown and attachment ZIP exports, batch mode and 20 locales.
 
+[0.9.2]: https://github.com/feranti/Teams-Excavator/compare/0.9.1...0.9.2
 [0.9.1]: https://github.com/feranti/Teams-Excavator/compare/0.9.0...0.9.1
 [0.9.0]: https://github.com/feranti/Teams-Excavator/releases/tag/0.9.0
